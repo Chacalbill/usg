@@ -1,0 +1,48 @@
+name: Build APK
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Gerar plataforma Android
+        run: flutter create --platforms=android --org br.com.medultra --project-name medultra .
+
+      - name: Remover teste padrao
+        run: rm -rf test
+
+      - name: Nome do app e icone
+        run: |
+          sed -i 's/android:label="[^"]*"/android:label="MedUltra"/' android/app/src/main/AndroidManifest.xml
+          for d in mdpi hdpi xhdpi xxhdpi xxxhdpi; do
+            cp assets/icons/ic_launcher.png android/app/src/main/res/mipmap-$d/ic_launcher.png
+          done
+
+      - run: flutter pub get
+
+      - name: Analisar
+        run: flutter analyze --no-fatal-infos --no-fatal-warnings
+
+      - name: Compilar APK
+        run: flutter build apk --release
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: medultra-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
