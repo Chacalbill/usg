@@ -1,0 +1,183 @@
+{
+ "target": "PancreasAdulto",
+ "tabs": [
+  {
+   "page": "PancreasAdultoTabela",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Pancreas\\PancreasAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaPancreasAdulto1"
+    },
+    {
+     "k": "refTabelaPancreasAdulto2"
+    },
+    {
+     "k": "headerTabelaPancreasAdulto"
+    },
+    {
+     "k": "tabelaPancreasAdultoL1C1"
+    },
+    {
+     "k": "tabelaPancreasAdultoL1C2"
+    },
+    {
+     "k": "tabelaPancreasAdultoL2C1"
+    },
+    {
+     "k": "tabelaPancreasAdultoL2C2"
+    },
+    {
+     "k": "tabelaPancreasAdultoL3C1"
+    },
+    {
+     "k": "tabelaPancreasAdultoL3C2"
+    },
+    {
+     "k": "tabelaPancreasAdultoL4C1"
+    },
+    {
+     "k": "tabelaPancreasAdultoL4C2"
+    },
+    {
+     "k": "tabelaPancreasAdultoL5C1"
+    },
+    {
+     "k": "tabelaPancreasAdultoL5C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaPancreasAdulto",
+     "rows": [
+      [
+       "tabelaPancreasAdultoL1C1",
+       "tabelaPancreasAdultoL1C2"
+      ],
+      [
+       "tabelaPancreasAdultoL2C1",
+       "tabelaPancreasAdultoL2C2"
+      ],
+      [
+       "tabelaPancreasAdultoL3C1",
+       "tabelaPancreasAdultoL3C2"
+      ],
+      [
+       "tabelaPancreasAdultoL4C1",
+       "tabelaPancreasAdultoL4C2"
+      ],
+      [
+       "tabelaPancreasAdultoL5C1",
+       "tabelaPancreasAdultoL5C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "PancreasAdultoExame",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Pancreas\\PancreasAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoPancreasAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoPancreasAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaPancreasAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "PancreasAdultoAxial",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Pancreas\\PancreasAdultoAxial.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteAxial"
+    },
+    {
+     "img": "acesso_transverso_epigastro.jpg",
+     "img_key": "sourceImagemDorsalTransversoEpigastro"
+    },
+    {
+     "k": "acessoSubxifoide"
+    },
+    {
+     "k": "figura"
+    },
+    {
+     "img": "pancreas_ilust_ped_adulto.jpg",
+     "img_key": "sourceImagemPancreasIlustAdulto"
+    },
+    {
+     "k": "medidasPancreas"
+    },
+    {
+     "k": "mensuracoesPancreas2"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_pancreas_adulto_axial.jpg",
+     "img_key": "sourceImagemPancreasCorteAxialUltra"
+    },
+    {
+     "k": "medidasPancreas"
+    },
+    {
+     "k": "pancreasMensCabeca"
+    },
+    {
+     "k": "pancreasMensCorpo"
+    },
+    {
+     "k": "mensuracao1Pancreas"
+    },
+    {
+     "img": "ultra_pancreas_adulto_ducto_a.jpg",
+     "img_key": "sourceImagemPancreasMensUltra1"
+    },
+    {
+     "k": "ductoPancreatico"
+    },
+    {
+     "img": "ultra_pancreas_adulto_ducto_b.jpg",
+     "img_key": "sourceImagemPancreasMensUltra2"
+    },
+    {
+     "k": "ductoPancreatico"
+    },
+    {
+     "k": "mensuracao2Pancreas"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

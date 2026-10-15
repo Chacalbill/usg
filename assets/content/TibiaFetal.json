@@ -1,0 +1,170 @@
+{
+ "target": "TibiaFetal",
+ "tabs": [
+  {
+   "page": "TibiaFetalTabela",
+   "xaml": "Paginas\\Fetal\\Tibia\\TibiaFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "astTabelaTibia"
+    },
+    {
+     "k": "refTabelaTibia"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaTibiaL1C1"
+    },
+    {
+     "k": "tabelaTibiaL1C2"
+    },
+    {
+     "k": "tabelaTibiaL2C1"
+    },
+    {
+     "k": "tabelaTibiaL2C2"
+    },
+    {
+     "k": "tabelaTibiaL2C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaTibia",
+     "rows": [
+      [
+       "tabelaTibiaL1C1",
+       "tabelaTibiaL1C2",
+       null
+      ],
+      [
+       "tabelaTibiaL2C1",
+       "tabelaTibiaL2C2",
+       "tabelaTibiaL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "TibiaFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\Tibia\\TibiaFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaTibia"
+    },
+    {
+     "k": "refTabelaTibia"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idadeGestacional"
+    },
+    {
+     "k": "semanas"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaTibiaL1C1"
+    },
+    {
+     "k": "tabelaTibiaL1C2"
+    },
+    {
+     "k": "tabelaTibiaL2C1"
+    },
+    {
+     "k": "tabelaTibiaL2C2"
+    },
+    {
+     "k": "tabelaTibiaL2C3"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteIG",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaTibia",
+     "rows": [
+      [
+       "tabelaTibiaL1C1",
+       "tabelaTibiaL1C2",
+       null
+      ],
+      [
+       "tabelaTibiaL2C1",
+       "tabelaTibiaL2C2",
+       "tabelaTibiaL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "TibiaFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\Tibia\\TibiaFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "pontosChaves"
+    },
+    {
+     "k": "tibiaPontosChave1"
+    },
+    {
+     "k": "tibiaPontosChave2"
+    },
+    {
+     "k": "tibiaPontosChave3"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "k": "legendaUltraTibia"
+    },
+    {
+     "k": "tibiaMedidaCorreta"
+    },
+    {
+     "k": "tibiaPontosMedida1"
+    },
+    {
+     "k": "tibiaPontosMedida2"
+    },
+    {
+     "k": "tibiaPontosMedida3"
+    },
+    {
+     "k": "tibiaPontosMedida4"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

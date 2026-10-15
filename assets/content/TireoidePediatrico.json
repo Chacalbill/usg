@@ -1,0 +1,158 @@
+{
+ "target": "TireoidePediatrico",
+ "tabs": [
+  {
+   "page": "TireoidePediatricoTabela",
+   "xaml": "Paginas\\Medidas\\PequenasPartes\\Tireoide\\TireoidePediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabela1TireoidePediatrico"
+    },
+    {
+     "k": "refTabela1TireoidePediatrico2"
+    },
+    {
+     "k": "headerTabela1TireoidePediatrico"
+    },
+    {
+     "k": "astTabela1TireoidePediatrico"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "TireoidePediatricoPrincipal",
+   "xaml": "Paginas\\Medidas\\PequenasPartes\\Tireoide\\TireoidePediatricoPrincipal.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "refTabela1TireoidePediatrico"
+    },
+    {
+     "k": "refTabela1TireoidePediatrico2"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idade"
+    },
+    {
+     "k": "anos"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "astTabela1TireoidePediatrico"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "voltar",
+    "camposObrigatorios",
+    "digiteIdade",
+    "ok",
+    "headerTabela1TireoidePediatrico",
+    "dadosForaAlcance"
+   ],
+   "tables": []
+  },
+  {
+   "page": "TireoidePediatricoExame",
+   "xaml": "Paginas\\Medidas\\PequenasPartes\\Tireoide\\TireoidePediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoTireoidePediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoTireoidePediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaTireoidePediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "TireoidePediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\PequenasPartes\\Tireoide\\TireoidePediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "corte_sagital_lobo_tireoidiano.jpg",
+     "img_key": "sourceImagemTireoideSagital"
+    },
+    {
+     "k": "legendaPlanoCorteLongitudinal"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_tireoide_adulto_longitudinal.jpg",
+     "img_key": "sourceImagemTireoideAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaTireoideAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaUltraDiametroLongitudinal"
+    },
+    {
+     "k": "legendaUltraDiametroAntero"
+    },
+    {
+     "k": "planoCorteAxial"
+    },
+    {
+     "img": "corte_axial_lobo_tireoidiano.jpg",
+     "img_key": "sourceImagemTireoideAxial"
+    },
+    {
+     "k": "legendaPlanoCorteAxial"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_tireoide_adulto_axial.jpg",
+     "img_key": "sourceImagemTireoideAdultoAxialUltra"
+    },
+    {
+     "k": "espessura"
+    },
+    {
+     "k": "legendaUltraDiametroTransverso"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

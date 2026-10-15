@@ -1,0 +1,171 @@
+{
+ "target": "PNFetal",
+ "tabs": [
+  {
+   "page": "PNFetalTabela",
+   "xaml": "Paginas\\Fetal\\PN\\PNFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "astTabelaPN"
+    },
+    {
+     "k": "refTabelaPN1"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaPNL1C1"
+    },
+    {
+     "k": "tabelaPNL1C2"
+    },
+    {
+     "k": "tabelaPNL2C1"
+    },
+    {
+     "k": "tabelaPNL2C2"
+    },
+    {
+     "k": "tabelaPNL2C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaPN",
+     "rows": [
+      [
+       "tabelaPNL1C1",
+       "tabelaPNL1C2",
+       null
+      ],
+      [
+       "tabelaPNL2C1",
+       "tabelaPNL2C2",
+       "tabelaPNL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "PNFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\PN\\PNFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaPN"
+    },
+    {
+     "k": "refTabelaPN1"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idadeGestacional"
+    },
+    {
+     "k": "semanas"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaPNL1C1"
+    },
+    {
+     "k": "tabelaPNL1C2"
+    },
+    {
+     "k": "tabelaPNL2C1"
+    },
+    {
+     "k": "tabelaPNL2C2"
+    },
+    {
+     "k": "tabelaPNL2C3"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteIG",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaPN",
+     "rows": [
+      [
+       "tabelaPNL1C1",
+       "tabelaPNL1C2",
+       null
+      ],
+      [
+       "tabelaPNL2C1",
+       "tabelaPNL2C2",
+       "tabelaPNL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "PNFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\PN\\PNFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "pontosChaves"
+    },
+    {
+     "k": "pnPontosChave1"
+    },
+    {
+     "k": "pnPontosChave2"
+    },
+    {
+     "k": "pnPontosChave3"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_pn_fetal.jpg",
+     "img_key": "sourceImagemPNFetalUltra"
+    },
+    {
+     "k": "pnLegendaUltra"
+    },
+    {
+     "k": "pnMedidaCorreta"
+    },
+    {
+     "k": "pnPontosMedida1"
+    },
+    {
+     "k": "pnPontosMedida2"
+    },
+    {
+     "k": "pnPontosMedida3"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

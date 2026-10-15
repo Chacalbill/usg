@@ -1,0 +1,11 @@
+{
+ "page": "TabHomeIOS",
+ "xaml": "Paginas\\TabHomeIOS.xaml",
+ "title_key": "tituloApp",
+ "blocks": [],
+ "code_keys": [
+  "tituloApp",
+  "voltar"
+ ],
+ "tables": []
+}

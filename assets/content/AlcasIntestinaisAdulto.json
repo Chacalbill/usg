@@ -1,0 +1,117 @@
+{
+ "target": "AlcasIntestinaisAdulto",
+ "tabs": [
+  {
+   "page": "AlcasIntestinaisAdultoTabela",
+   "xaml": "Paginas\\Medidas\\TratoGastrintestinal\\AlcasIntestinais\\AlcasIntestinaisAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaAlcasAdulto1"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_alcas_medidas.jpg",
+     "img_key": "sourceImagemAlcasAdultoUltraMedidas"
+    },
+    {
+     "k": "legendaAlcasAdultoUltraMedidas"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaAlcasAdultoL1C1"
+    },
+    {
+     "k": "tabelaAlcasAdultoL1C2"
+    },
+    {
+     "k": "tabelaAlcasAdultoL2C1"
+    },
+    {
+     "k": "tabelaAlcasAdultoL2C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaAlcasAdulto",
+     "rows": [
+      [
+       "tabelaAlcasAdultoL1C1",
+       "tabelaAlcasAdultoL1C2"
+      ],
+      [
+       "tabelaAlcasAdultoL2C1",
+       "tabelaAlcasAdultoL2C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "AlcasIntestinaisAdultoExame",
+   "xaml": "Paginas\\Medidas\\TratoGastrintestinal\\AlcasIntestinais\\AlcasIntestinaisAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoAlcasIntestinaisAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoAlcasIntestinaisAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaAlcasIntestinaisAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "AlcasIntestinaisAdultoPadrao",
+   "xaml": "Paginas\\Medidas\\TratoGastrintestinal\\AlcasIntestinais\\AlcasIntestinaisAdultoPadrao.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_alcas_setas.jpg",
+     "img_key": "sourceImagemAlcasAdultoUltraSetas"
+    },
+    {
+     "k": "legendaAlcasAdultoUltraSetas"
+    },
+    {
+     "k": "textoAlcasAdultoUltraSetas1"
+    },
+    {
+     "k": "textoAlcasAdultoUltraSetas2"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

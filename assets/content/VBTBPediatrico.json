@@ -1,0 +1,173 @@
+{
+ "target": "VBTBPediatrico",
+ "tabs": [
+  {
+   "page": "VBTBPediatricoTabela",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\VB\\VBTBPediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabela1VBTBPediatrico"
+    },
+    {
+     "k": "refTabela1VBTBPediatrico2"
+    },
+    {
+     "k": "headerTabela1PediatricoVBTB"
+    },
+    {
+     "k": "headerTabela2PediatricoVBTB"
+    },
+    {
+     "k": "tabela2VBTBPediatricoL1C1"
+    },
+    {
+     "k": "tabela2VBTBPediatricoL1C2"
+    },
+    {
+     "k": "tabela2VBTBPediatricoL2C1"
+    },
+    {
+     "k": "tabela2VBTBPediatricoL2C2"
+    },
+    {
+     "k": "tabela2VBTBPediatricoL3C1"
+    },
+    {
+     "k": "tabela2VBTBPediatricoL3C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabela2VBTBPediatrico",
+     "rows": [
+      [
+       "tabela2VBTBPediatricoL1C1",
+       "tabela2VBTBPediatricoL1C2"
+      ],
+      [
+       "tabela2VBTBPediatricoL2C1",
+       "tabela2VBTBPediatricoL2C2"
+      ],
+      [
+       "tabela2VBTBPediatricoL3C1",
+       "tabela2VBTBPediatricoL3C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "VBTBPediatricoExame",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\VB\\VBTBPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoVBTBPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoVBTBPediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnica1VBTBPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "VBPediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\VB\\VBPediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_subcostal_obliquo_direito.jpg",
+     "img_key": "sourceImagemDorsalSubcostalObliquoDireito"
+    },
+    {
+     "k": "acessoIntercostalDireitoEstendido"
+    },
+    {
+     "k": "textoAcessoIntercostalDireitoEstendido"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_vb_pediatrico_longitudinal.jpg",
+     "img_key": "sourceImagemVBPediatricoLongitudinalUltra"
+    },
+    {
+     "k": "legendaVBPediatricoLongitudinalUltra"
+    },
+    {
+     "k": "comprimento"
+    },
+    {
+     "k": "diametroAntero"
+    },
+    {
+     "k": "planoCorteTransversal"
+    },
+    {
+     "img": "acesso_subcostal_obliquo_direito_rotacao90.jpg",
+     "img_key": "sourceImagemDorsalSubcostalObliquoDireitoRotacao90"
+    },
+    {
+     "k": "acessoSubcostalObliDireitoRot90"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_vb_pediatrico_axial.jpg",
+     "img_key": "sourceImagemVBPediatricoAxialUltra"
+    },
+    {
+     "k": "legendaVBPediatricoAxialUltra"
+    },
+    {
+     "k": "largura"
+    },
+    {
+     "img": "ultra_vb_adulto_parede_zoom.jpg",
+     "img_key": "sourceImagemVBAdultoParedeZoomUltra"
+    },
+    {
+     "k": "legendaVBAdultoParedeZoomUltra"
+    },
+    {
+     "img": "ultra_vb_adulto_parede_linear.jpg",
+     "img_key": "sourceImagemVBAdultoParedeLinearUltra"
+    },
+    {
+     "k": "legendaVBAdultoParedeLinearUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

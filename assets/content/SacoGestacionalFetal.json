@@ -1,0 +1,203 @@
+{
+ "target": "SacoGestacionalFetal",
+ "tabs": [
+  {
+   "page": "SacoGestacionalFetalTabela",
+   "xaml": "Paginas\\Fetal\\SacoGestacional\\SacoGestacionalFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "astTabelaSG0"
+    },
+    {
+     "k": "astTabelaSG2"
+    },
+    {
+     "k": "refTabelaSG"
+    },
+    {
+     "k": "refTabelaSG2"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaSGL1C1"
+    },
+    {
+     "k": "tabelaSGL1C2"
+    },
+    {
+     "k": "tabelaSGL1C3"
+    },
+    {
+     "k": "astTabelaSG1"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaSG",
+     "rows": [
+      [
+       "tabelaSGL1C1",
+       "tabelaSGL1C2",
+       "tabelaSGL1C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "SacoGestacionalFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\SacoGestacional\\SacoGestacionalFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaSG0"
+    },
+    {
+     "k": "astTabelaSG2"
+    },
+    {
+     "k": "refTabelaSG"
+    },
+    {
+     "k": "refTabelaSG2"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "entrada"
+    },
+    {
+     "k": "dmsg"
+    },
+    {
+     "k": "mm"
+    },
+    {
+     "k": "diametro1"
+    },
+    {
+     "k": "mm"
+    },
+    {
+     "k": "diametro2"
+    },
+    {
+     "k": "mm"
+    },
+    {
+     "k": "diametro3"
+    },
+    {
+     "k": "mm"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaSGL1C1"
+    },
+    {
+     "k": "tabelaSGL1C2"
+    },
+    {
+     "k": "tabelaSGL1C3"
+    },
+    {
+     "k": "dmsgCalculoTabelaMensagem"
+    },
+    {
+     "k": "astTabelaSG1"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "dmsg",
+    "tresDiametros",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteO",
+    "ok",
+    "diametro1",
+    "diametro2",
+    "diametro3"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaSG",
+     "rows": [
+      [
+       "tabelaSGL1C1",
+       "tabelaSGL1C2",
+       "tabelaSGL1C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "SacoGestacionalFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\SacoGestacional\\SacoGestacionalFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "pontosChaves"
+    },
+    {
+     "k": "sacoGestacionaPontosChave1"
+    },
+    {
+     "k": "sacoGestacionaPontosChave2"
+    },
+    {
+     "k": "sacoGestacionaPontosChave3"
+    },
+    {
+     "k": "sacoGestacionaPontosChave4"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_saco_gestacional_1.jpg",
+     "img_key": "sourceImagemSacoGestacionalFetalUltra1"
+    },
+    {
+     "k": "corteLongitudinal"
+    },
+    {
+     "k": "legendaSacoGestacionalLongitudinalUltra1"
+    },
+    {
+     "k": "legendaSacoGestacionalLongitudinalUltra2"
+    },
+    {
+     "img": "ultra_saco_gestacional_2.jpg",
+     "img_key": "sourceImagemSacoGestacionalFetalUltra2"
+    },
+    {
+     "k": "corteTransversal"
+    },
+    {
+     "k": "legendaSacoGestacionalTransversalUltra1"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

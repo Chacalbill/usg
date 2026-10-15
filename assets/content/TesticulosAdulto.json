@@ -1,0 +1,164 @@
+{
+ "target": "TesticulosAdulto",
+ "tabs": [
+  {
+   "page": "TesticulosAdultoTabela",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Testiculos\\TesticulosAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "referenciaTabelaTesticulosAdulto2"
+    },
+    {
+     "k": "referenciaTabelaTesticulosAdulto"
+    },
+    {
+     "k": "headerTabela2TesticulosAdulto"
+    },
+    {
+     "k": "tabela2TesticulosAdultoL1C1"
+    },
+    {
+     "k": "tabela2TesticulosAdultoL1C2"
+    },
+    {
+     "k": "tabela2TesticulosAdultoL2C1"
+    },
+    {
+     "k": "tabela2TesticulosAdultoL2C2"
+    },
+    {
+     "k": "tabela2TesticulosAdultoL3C1"
+    },
+    {
+     "k": "tabela2TesticulosAdultoL3C2"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaTesticulosAdultoL1C1"
+    },
+    {
+     "k": "tabelaTesticulosAdultoL1C2"
+    },
+    {
+     "k": "tabelaTesticulosAdultoL2C1"
+    },
+    {
+     "k": "tabelaTesticulosAdultoL2C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabela2TesticulosAdulto",
+     "rows": [
+      [
+       "tabela2TesticulosAdultoL1C1",
+       "tabela2TesticulosAdultoL1C2"
+      ],
+      [
+       "tabela2TesticulosAdultoL2C1",
+       "tabela2TesticulosAdultoL2C2"
+      ],
+      [
+       "tabela2TesticulosAdultoL3C1",
+       "tabela2TesticulosAdultoL3C2"
+      ]
+     ]
+    },
+    {
+     "prefix": "tabelaTesticulosAdulto",
+     "rows": [
+      [
+       "tabelaTesticulosAdultoL1C1",
+       "tabelaTesticulosAdultoL1C2"
+      ],
+      [
+       "tabelaTesticulosAdultoL2C1",
+       "tabelaTesticulosAdultoL2C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "TesticulosAdultoExame",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Testiculos\\TesticulosAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoTesticulosAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoTesticulosAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaTesticulosAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "TesticulosAdultoTecnica",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Testiculos\\TesticulosAdultoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "ultrassomPlanoCorteLongitudinal"
+    },
+    {
+     "img": "ultra_testiculo_adulto_longitudinal.jpg",
+     "img_key": "sourceImagemTesticulosAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaTesticulosAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaUltraDiametroLongitudinal"
+    },
+    {
+     "k": "ultrassomPlanoCorteTransversal"
+    },
+    {
+     "img": "ultra_testiculo_adulto_axial.jpg",
+     "img_key": "sourceImagemTesticulosAdultoAxialUltra"
+    },
+    {
+     "k": "legendaTesticulosAdultoAxialUltra"
+    },
+    {
+     "k": "legendaUltraDiametroTransverso"
+    },
+    {
+     "k": "legendaUltraDiametroAntero"
+    },
+    {
+     "k": "textoTesticulosAdultoAxialUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

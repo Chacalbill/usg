@@ -1,0 +1,165 @@
+{
+ "target": "CFFetal",
+ "tabs": [
+  {
+   "page": "CFFetalTabela",
+   "xaml": "Paginas\\Fetal\\CF\\CFFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "astTabelaCF1"
+    },
+    {
+     "k": "astTabelaCF2"
+    },
+    {
+     "k": "refTabelaCF"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaCFL1C1"
+    },
+    {
+     "k": "tabelaCFL1C2"
+    },
+    {
+     "k": "tabelaCFL1C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaCF",
+     "rows": [
+      [
+       "tabelaCFL1C1",
+       "tabelaCFL1C2",
+       "tabelaCFL1C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "CFFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\CF\\CFFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaCF1"
+    },
+    {
+     "k": "astTabelaCF2"
+    },
+    {
+     "k": "refTabelaCF"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "cfSigla"
+    },
+    {
+     "k": "mm"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaCFL1C1"
+    },
+    {
+     "k": "tabelaCFL1C2"
+    },
+    {
+     "k": "tabelaCFL1C3"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteO",
+    "cfSigla",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaCF",
+     "rows": [
+      [
+       "tabelaCFL1C1",
+       "tabelaCFL1C2",
+       "tabelaCFL1C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "CFFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\CF\\CFFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "pontosChaves"
+    },
+    {
+     "k": "cfPontosChave1"
+    },
+    {
+     "k": "cfPontosChave2"
+    },
+    {
+     "k": "cfPontosChave3"
+    },
+    {
+     "k": "cfPontosChave4"
+    },
+    {
+     "k": "cfPontosChave5"
+    },
+    {
+     "k": "cfPontosChave6"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_fl_fetal.jpg",
+     "img_key": "sourceImagemFLFetalUltra"
+    },
+    {
+     "k": "cfMedidaCorreta"
+    },
+    {
+     "k": "cfPontosMedida1"
+    },
+    {
+     "k": "cfPontosMedida2"
+    },
+    {
+     "k": "cfPontosMedida3"
+    },
+    {
+     "k": "cfPontosMedida4"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

@@ -1,0 +1,175 @@
+{
+ "target": "RimAdulto",
+ "tabs": [
+  {
+   "page": "RimAdultoTabela",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Rim\\RimAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "referenciaTabelaRimAdulto1"
+    },
+    {
+     "k": "referenciaTabelaRimAdulto2"
+    },
+    {
+     "k": "referenciaTabelaRimAdulto3"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaRimAdultoL1C1"
+    },
+    {
+     "k": "tabelaRimAdultoL1C2"
+    },
+    {
+     "k": "tabelaRimAdultoL2C1"
+    },
+    {
+     "k": "tabelaRimAdultoL2C2"
+    },
+    {
+     "k": "tabelaRimAdultoL3C1"
+    },
+    {
+     "k": "tabelaRimAdultoL3C2"
+    },
+    {
+     "k": "tabelaRimAdultoL4C1"
+    },
+    {
+     "k": "tabelaRimAdultoL4C2"
+    },
+    {
+     "k": "astTabelaRimAdulto"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaRimAdulto",
+     "rows": [
+      [
+       "tabelaRimAdultoL1C1",
+       "tabelaRimAdultoL1C2"
+      ],
+      [
+       "tabelaRimAdultoL2C1",
+       "tabelaRimAdultoL2C2"
+      ],
+      [
+       "tabelaRimAdultoL3C1",
+       "tabelaRimAdultoL3C2"
+      ],
+      [
+       "tabelaRimAdultoL4C1",
+       "tabelaRimAdultoL4C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "RimAdultoExame",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Rim\\RimAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoRimAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoRimAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaRimAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "RimAdultoCoronal",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Rim\\RimAdultoCoronal.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteCoronal"
+    },
+    {
+     "img": "acesso_flanco_direito.jpg",
+     "img_key": "sourceImagemLateralFlancoDireito"
+    },
+    {
+     "k": "acessoFlanco"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_rim_inter_sub.jpg",
+     "img_key": "sourceImagemRimAdultoInterSubUltra"
+    },
+    {
+     "k": "legendaRimDireitoFlanco"
+    },
+    {
+     "k": "eixoLongitudinal"
+    },
+    {
+     "k": "espessuraParen"
+    },
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_subcostal_parassagital_direito.jpg",
+     "img_key": "sourceImagemDorsalSubcostalParassagitalDireito"
+    },
+    {
+     "k": "acessoSubcostalParassagitalDireitoAxilar"
+    },
+    {
+     "k": "textoRimAdultoSubcostalParassagitalDireito"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_rim_sub_para.jpg",
+     "img_key": "sourceImagemRimAdultoSubParaUltra"
+    },
+    {
+     "k": "acessoSubcostalParassagitalDir"
+    },
+    {
+     "k": "eixoLongitudinal"
+    },
+    {
+     "k": "espessuraParen"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

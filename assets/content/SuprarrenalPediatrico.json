@@ -1,0 +1,156 @@
+{
+ "target": "SuprarrenalPediatrico",
+ "tabs": [
+  {
+   "page": "SuprarrenalPediatricoTabela",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Suprarrenal\\SuprarrenalPediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaSuprarrenal"
+    },
+    {
+     "k": "headerTabelaSuprarrenalPediatrico"
+    },
+    {
+     "k": "tabelaSuprarrenalPediatricoL1C1"
+    },
+    {
+     "k": "tabelaSuprarrenalPediatricoL1C2"
+    },
+    {
+     "k": "tabelaSuprarrenalPediatricoL1C3"
+    },
+    {
+     "k": "tabelaSuprarrenalPediatricoL2C1"
+    },
+    {
+     "k": "tabelaSuprarrenalPediatricoL2C2"
+    },
+    {
+     "k": "tabelaSuprarrenalPediatricoL2C3"
+    },
+    {
+     "k": "tabelaSuprarrenalPediatricoL3C1"
+    },
+    {
+     "k": "tabelaSuprarrenalPediatricoL3C2"
+    },
+    {
+     "k": "tabelaSuprarrenalPediatricoL3C3"
+    },
+    {
+     "k": "tabelaSuprarrenalPediatricoL4C1"
+    },
+    {
+     "k": "tabelaSuprarrenalPediatricoL4C2"
+    },
+    {
+     "k": "tabelaSuprarrenalPediatricoL4C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaSuprarrenalPediatrico",
+     "rows": [
+      [
+       "tabelaSuprarrenalPediatricoL1C1",
+       "tabelaSuprarrenalPediatricoL1C2",
+       "tabelaSuprarrenalPediatricoL1C3"
+      ],
+      [
+       "tabelaSuprarrenalPediatricoL2C1",
+       "tabelaSuprarrenalPediatricoL2C2",
+       "tabelaSuprarrenalPediatricoL2C3"
+      ],
+      [
+       "tabelaSuprarrenalPediatricoL3C1",
+       "tabelaSuprarrenalPediatricoL3C2",
+       "tabelaSuprarrenalPediatricoL3C3"
+      ],
+      [
+       "tabelaSuprarrenalPediatricoL4C1",
+       "tabelaSuprarrenalPediatricoL4C2",
+       "tabelaSuprarrenalPediatricoL4C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "SuprarrenalPediatricoExame",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Suprarrenal\\SuprarrenalPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoSuprarrenalPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoSuprarrenalPediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaSuprarrenalPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "SuprarrenalPediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Suprarrenal\\SuprarrenalPediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "ultrassomPlanoCorteLongitudinal"
+    },
+    {
+     "img": "ultra_suprarrenal_comprimento.jpg",
+     "img_key": "sourceImagemSuprarrenalUltraComprimento"
+    },
+    {
+     "k": "legendaSuprarrenalPediatricoLongitudinalUltra"
+    },
+    {
+     "k": "legendaSuprarrenalPediatricoUltraComprimento"
+    },
+    {
+     "k": "textoSuprarrenalPediatricoUltraComprimento"
+    },
+    {
+     "img": "ultra_suprarrenal_espessura.jpg",
+     "img_key": "sourceImagemSuprarrenalUltraEspessura"
+    },
+    {
+     "k": "legendaSuprarrenalPediatricoLongitudinalUltra"
+    },
+    {
+     "k": "legendaSuprarrenalPediatricoUltraEspessura"
+    },
+    {
+     "k": "textoSuprarrenalPediatricoUltraEspessura"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

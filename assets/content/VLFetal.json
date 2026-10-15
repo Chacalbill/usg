@@ -1,0 +1,158 @@
+{
+ "target": "VLFetal",
+ "tabs": [
+  {
+   "page": "VLFetalTabela",
+   "xaml": "Paginas\\Fetal\\VL\\VLFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "astTabelaVL"
+    },
+    {
+     "k": "refTabelaVL"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaVLL1C1"
+    },
+    {
+     "k": "tabelaVLL1C2"
+    },
+    {
+     "k": "tabelaVLL2C1"
+    },
+    {
+     "k": "tabelaVLL2C2"
+    },
+    {
+     "k": "tabelaVLL2C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaVL",
+     "rows": [
+      [
+       "tabelaVLL1C1",
+       "tabelaVLL1C2",
+       null
+      ],
+      [
+       "tabelaVLL2C1",
+       "tabelaVLL2C2",
+       "tabelaVLL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "VLFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\VL\\VLFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaVL"
+    },
+    {
+     "k": "refTabelaVL"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idadeGestacional"
+    },
+    {
+     "k": "semanas"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaVLL1C1"
+    },
+    {
+     "k": "tabelaVLL1C2"
+    },
+    {
+     "k": "tabelaVLL2C1"
+    },
+    {
+     "k": "tabelaVLL2C2"
+    },
+    {
+     "k": "tabelaVLL2C3"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteIG",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaVL",
+     "rows": [
+      [
+       "tabelaVLL1C1",
+       "tabelaVLL1C2",
+       null
+      ],
+      [
+       "tabelaVLL2C1",
+       "tabelaVLL2C2",
+       "tabelaVLL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "VLFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\VL\\VLFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "ultrassom"
+    },
+    {
+     "k": "legendaUltraVL"
+    },
+    {
+     "k": "vlMedidaCorreta"
+    },
+    {
+     "k": "vlPontosMedida1"
+    },
+    {
+     "k": "vlPontosMedida2"
+    },
+    {
+     "k": "vlPontosMedida3"
+    },
+    {
+     "k": "vlPontosMedida4"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "target": "UteroPediatrico",
+ "tabs": [
+  {
+   "page": "UteroPediatricoTabela",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Utero\\UteroPediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "astTabelaUteroDiametro"
+    },
+    {
+     "k": "refTabelaUteroDiametro"
+    },
+    {
+     "k": "headerTabelaUteroDiametro"
+    },
+    {
+     "k": "headerTabelaUteroVolume"
+    },
+    {
+     "k": "astTabela2UteroPediatrico"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "UteroPediatricoPrincipal",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Utero\\UteroPediatricoPrincipal.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaUteroDiametro"
+    },
+    {
+     "k": "refTabelaUteroDiametro"
+    },
+    {
+     "k": "refTabelaUteroVolume"
+    },
+    {
+     "k": "uteroDiametro"
+    },
+    {
+     "k": "idade"
+    },
+    {
+     "k": "anos"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "dadosForaAlcance"
+    },
+    {
+     "k": "uteroVolume"
+    },
+    {
+     "k": "idade"
+    },
+    {
+     "k": "anos"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "dadosForaAlcance"
+    },
+    {
+     "k": "astTabela2UteroPediatrico"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "voltar",
+    "camposObrigatorios",
+    "digiteIdade",
+    "ok",
+    "headerTabelaUteroDiametro",
+    "headerTabelaUteroVolume"
+   ],
+   "tables": []
+  },
+  {
+   "page": "UteroPediatricoExame",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Utero\\UteroPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoUteroPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoUteroPediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaUteroPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "UteroPediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Utero\\UteroPediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_longitudinal_suprapubico.jpg",
+     "img_key": "sourceImagemDorsalLongitudinalSuprapubico"
+    },
+    {
+     "k": "acessoSagitalMedianoSuprapubico"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_utero_pediatrico_longitudinal.jpg",
+     "img_key": "sourceImagemUteroPediatricoLongitudinalUltra"
+    },
+    {
+     "k": "legendaUteroAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaUltraDiametroCorpoUterino"
+    },
+    {
+     "k": "legendaUltraDiametroColoUterino"
+    },
+    {
+     "k": "legendaUltraDiametroLongitudinalDLU"
+    },
+    {
+     "k": "planoCorteAxial"
+    },
+    {
+     "img": "acesso_transverso_suprapubico.jpg",
+     "img_key": "sourceImagemDorsalTransversoSuprapubico"
+    },
+    {
+     "k": "acessoTransversoSuprapubico"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_utero_pediatrico_transverso.jpg",
+     "img_key": "sourceImagemUteroPediatricoTransversoUltra"
+    },
+    {
+     "k": "legendaUteroPediatricoTransversoUltra"
+    },
+    {
+     "k": "legendaUteroPediatricoDiametroTransverso"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

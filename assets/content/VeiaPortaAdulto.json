@@ -1,0 +1,149 @@
+{
+ "target": "VeiaPortaAdulto",
+ "tabs": [
+  {
+   "page": "VeiaPortaAdultoTabela",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\VeiaPorta\\VeiaPortaAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "referenciaTabelaVeiaPortaAdulto"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaVeiaPortaAdultoL1C1"
+    },
+    {
+     "k": "tabelaVeiaPortaAdultoL1C2"
+    },
+    {
+     "k": "tabelaVeiaPortaAdultoL2C1"
+    },
+    {
+     "k": "tabelaVeiaPortaAdultoL2C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaVeiaPortaAdulto",
+     "rows": [
+      [
+       "tabelaVeiaPortaAdultoL1C1",
+       "tabelaVeiaPortaAdultoL1C2"
+      ],
+      [
+       "tabelaVeiaPortaAdultoL2C1",
+       "tabelaVeiaPortaAdultoL2C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "VeiaPortaAdultoExame",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\VeiaPorta\\VeiaPortaAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoVeiaPortaAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoVeiaPortaAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaVeiaPortaAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "VeiaPortaAdultoTecnica",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\VeiaPorta\\VeiaPortaAdultoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_subcostal_obliquo_direito.jpg",
+     "img_key": "sourceImagemDorsalSubcostalObliquoDireito"
+    },
+    {
+     "k": "acessoIntercostalDireitoEstendido"
+    },
+    {
+     "k": "textoAcessoIntercostalDireitoEstendido"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_vp_subcostal.jpg",
+     "img_key": "sourceImagemVPAdultoSubUltra"
+    },
+    {
+     "k": "legendaVPAdultoSubUltra"
+    },
+    {
+     "k": "legendaVPAdultoSubUltraDiametro"
+    },
+    {
+     "k": "textoVPAdultoSubUltra"
+    },
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_intercostal_direito.jpg",
+     "img_key": "sourceImagemDorsalIntercostalDireito"
+    },
+    {
+     "k": "acessoIntercostalDireitoLegenda"
+    },
+    {
+     "k": "textoAcessoIntercostalDireitoVeiaPortaAdulto"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_vp_intercostal.jpg",
+     "img_key": "sourceImagemVPAdultoInterUltra"
+    },
+    {
+     "k": "legendaVPAdultoInterUltra"
+    },
+    {
+     "k": "legendaVPAdultoInterUltraDiametro"
+    },
+    {
+     "k": "textoVPAdultoInterUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

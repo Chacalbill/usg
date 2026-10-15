@@ -1,0 +1,225 @@
+{
+ "target": "BexigaAdulto",
+ "tabs": [
+  {
+   "page": "BexigaAdultoTabela",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Bexiga\\BexigaAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabela1Bexiga"
+    },
+    {
+     "k": "ref2Tabela1Bexiga"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabela1BexigaL1C1"
+    },
+    {
+     "k": "tabela1BexigaL1C2"
+    },
+    {
+     "k": "tabela1BexigaL2C1"
+    },
+    {
+     "k": "tabela1BexigaL2C2"
+    },
+    {
+     "k": "tabela1BexigaL3C1"
+    },
+    {
+     "k": "tabela1BexigaL3C2"
+    },
+    {
+     "k": "tabela2BexigaL1C1"
+    },
+    {
+     "k": "tabela2BexigaL2C1"
+    },
+    {
+     "k": "tabela2BexigaL2C2"
+    },
+    {
+     "k": "tabela2BexigaL3C1"
+    },
+    {
+     "k": "tabela2BexigaL3C2"
+    },
+    {
+     "k": "tabela2BexigaL4C1"
+    },
+    {
+     "k": "tabela2BexigaL4C2"
+    },
+    {
+     "k": "tabela2BexigaL5C1"
+    },
+    {
+     "k": "tabela2BexigaL5C2"
+    },
+    {
+     "k": "tabela2BexigaL6C1"
+    },
+    {
+     "k": "tabela2BexigaL6C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabela1Bexiga",
+     "rows": [
+      [
+       "tabela1BexigaL1C1",
+       "tabela1BexigaL1C2"
+      ],
+      [
+       "tabela1BexigaL2C1",
+       "tabela1BexigaL2C2"
+      ],
+      [
+       "tabela1BexigaL3C1",
+       "tabela1BexigaL3C2"
+      ]
+     ]
+    },
+    {
+     "prefix": "tabela2Bexiga",
+     "rows": [
+      [
+       "tabela2BexigaL1C1",
+       null
+      ],
+      [
+       "tabela2BexigaL2C1",
+       "tabela2BexigaL2C2"
+      ],
+      [
+       "tabela2BexigaL3C1",
+       "tabela2BexigaL3C2"
+      ],
+      [
+       "tabela2BexigaL4C1",
+       "tabela2BexigaL4C2"
+      ],
+      [
+       "tabela2BexigaL5C1",
+       "tabela2BexigaL5C2"
+      ],
+      [
+       "tabela2BexigaL6C1",
+       "tabela2BexigaL6C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "BexigaAdultoExame",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Bexiga\\BexigaAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoBexigaAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoBexigaAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaBexigaAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "BexigaAdultoTecnica",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Bexiga\\BexigaAdultoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_longitudinal_suprapubico.jpg",
+     "img_key": "sourceImagemDorsalLongitudinalSuprapubico"
+    },
+    {
+     "k": "acessoSagitalMedianoSuprapubico"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_bexiga_adulto_residuo_longitudinal.jpg",
+     "img_key": "sourceImagemBexigaAdultoResiduoLongUltra"
+    },
+    {
+     "k": "legendaBexigaAdultoResiduoLongUltra"
+    },
+    {
+     "k": "legendaEixoLongitudinal"
+    },
+    {
+     "k": "legendaEixoAntero"
+    },
+    {
+     "k": "planoCorteAxial"
+    },
+    {
+     "img": "acesso_transverso_suprapubico.jpg",
+     "img_key": "sourceImagemDorsalTransversoSuprapubico"
+    },
+    {
+     "k": "acessoTransversoSuprapubico"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_bexiga_adulto_residuo_transversal.jpg",
+     "img_key": "sourceImagemBexigaAdultoResiduoTransUltra"
+    },
+    {
+     "k": "legendaBexigaAdultoResiduoTransUltra"
+    },
+    {
+     "k": "legendaEixoTransversal"
+    },
+    {
+     "img": "ultra_bexiga_adulto_parede_vesical_medida.jpg",
+     "img_key": "sourceImagemBexigaAdultoParedeVesicalMedidaUltra"
+    },
+    {
+     "k": "legendaBexigaAdultoParedeVesicalMedidaUltra"
+    },
+    {
+     "k": "textoBexigaAdultoParedeVesicalMedidaUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

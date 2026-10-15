@@ -1,0 +1,174 @@
+{
+ "target": "EndometrioAdulto",
+ "tabs": [
+  {
+   "page": "EndometrioAdultoTabela",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Endometrio\\EndometrioAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "referenciaTabelaEndometrio1"
+    },
+    {
+     "k": "referenciaTabelaEndometrio2"
+    },
+    {
+     "k": "referenciaTabelaEndometrio3"
+    },
+    {
+     "k": "menacme"
+    },
+    {
+     "k": "tabelaEndometrioAdultoL1C1"
+    },
+    {
+     "k": "tabelaEndometrioAdultoL1C2"
+    },
+    {
+     "k": "tabelaEndometrioAdultoL2C1"
+    },
+    {
+     "k": "tabelaEndometrioAdultoL2C2"
+    },
+    {
+     "k": "tabelaEndometrioAdultoL3C1"
+    },
+    {
+     "k": "tabelaEndometrioAdultoL3C2"
+    },
+    {
+     "k": "tabelaEndometrioAdultoL4C1"
+    },
+    {
+     "k": "tabelaEndometrioAdultoL4C2"
+    },
+    {
+     "k": "posmenopausa"
+    },
+    {
+     "k": "tabela2EndometrioAdultoL1C1"
+    },
+    {
+     "k": "tabela2EndometrioAdultoL1C2"
+    },
+    {
+     "k": "tabela2EndometrioAdultoL2C1"
+    },
+    {
+     "k": "tabela2EndometrioAdultoL2C2"
+    },
+    {
+     "k": "tabela2EndometrioAdultoL3C1"
+    },
+    {
+     "k": "tabela2EndometrioAdultoL3C2"
+    },
+    {
+     "k": "astEndometrioAdulto1"
+    },
+    {
+     "k": "astEndometrioAdulto2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaEndometrioAdulto",
+     "rows": [
+      [
+       "tabelaEndometrioAdultoL1C1",
+       "tabelaEndometrioAdultoL1C2"
+      ],
+      [
+       "tabelaEndometrioAdultoL2C1",
+       "tabelaEndometrioAdultoL2C2"
+      ],
+      [
+       "tabelaEndometrioAdultoL3C1",
+       "tabelaEndometrioAdultoL3C2"
+      ],
+      [
+       "tabelaEndometrioAdultoL4C1",
+       "tabelaEndometrioAdultoL4C2"
+      ]
+     ]
+    },
+    {
+     "prefix": "tabela2EndometrioAdulto",
+     "rows": [
+      [
+       "tabela2EndometrioAdultoL1C1",
+       "tabela2EndometrioAdultoL1C2"
+      ],
+      [
+       "tabela2EndometrioAdultoL2C1",
+       "tabela2EndometrioAdultoL2C2"
+      ],
+      [
+       "tabela2EndometrioAdultoL3C1",
+       "tabela2EndometrioAdultoL3C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "EndometrioAdultoExame",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Endometrio\\EndometrioAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoEndometrioAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoEndometrioAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaEndometrioAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "EndometrioAdultoTecnica",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Endometrio\\EndometrioAdultoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "ultrassomPlanoCorteLongitudinal"
+    },
+    {
+     "img": "ultra_endometrio.jpg",
+     "img_key": "sourceImagemEndometrioAdultoUltra"
+    },
+    {
+     "k": "legendaEndometrioAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaUltraEspessuraEndometrial"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

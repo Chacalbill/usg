@@ -1,0 +1,114 @@
+{
+ "target": "EpididimosAdulto",
+ "tabs": [
+  {
+   "page": "EpididimosAdultoTabela",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Epididimos\\EpididimosAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "referenciaTabelaEpididimos"
+    },
+    {
+     "k": "headerTabelaEpididimos"
+    },
+    {
+     "k": "tabelaEpididimosAdultoL1C1"
+    },
+    {
+     "k": "tabelaEpididimosAdultoL1C2"
+    },
+    {
+     "k": "tabelaEpididimosAdultoL2C1"
+    },
+    {
+     "k": "tabelaEpididimosAdultoL2C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaEpididimosAdulto",
+     "rows": [
+      [
+       "tabelaEpididimosAdultoL1C1",
+       "tabelaEpididimosAdultoL1C2"
+      ],
+      [
+       "tabelaEpididimosAdultoL2C1",
+       "tabelaEpididimosAdultoL2C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "EpididimosAdultoExame",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Epididimos\\EpididimosAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoEpididimosAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoEpididimosAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaEpididimosAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "EpididimosAdultoTecnica",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Epididimos\\EpididimosAdultoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "ultrassomPlanoCorteLongitudinal"
+    },
+    {
+     "img": "ultra_epididimos_cabeca.jpg",
+     "img_key": "sourceImagemEpididimosCabecaAdultoUltra"
+    },
+    {
+     "k": "legendaEpididimoAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaUltraDiametroEpididimo"
+    },
+    {
+     "img": "ultra_epididimos_corpo.jpg",
+     "img_key": "sourceImagemEpididimosCorpoAdultoUltra"
+    },
+    {
+     "k": "legendaEpididimoAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaUltraEspessuraEpididimo"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

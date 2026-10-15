@@ -1,0 +1,27 @@
+{
+ "page": "Home",
+ "xaml": "Paginas\\Home.xaml",
+ "title_key": "tituloApp",
+ "blocks": [
+  {
+   "k": "faixaEtaria"
+  },
+  {
+   "k": "fetal"
+  },
+  {
+   "k": "Pediatria"
+  },
+  {
+   "k": "Adultos"
+  },
+  {
+   "k": "busca"
+  }
+ ],
+ "code_keys": [
+  "tituloApp",
+  "inicio"
+ ],
+ "tables": []
+}

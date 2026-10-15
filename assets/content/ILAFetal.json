@@ -1,0 +1,179 @@
+{
+ "target": "ILAFetal",
+ "tabs": [
+  {
+   "page": "ILAFetalTabela",
+   "xaml": "Paginas\\Fetal\\ILA\\ILAFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "astTabelaILA"
+    },
+    {
+     "k": "refTabelaILA"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaILAL1C1"
+    },
+    {
+     "k": "tabelaILAL1C2"
+    },
+    {
+     "k": "tabelaILAL2C1"
+    },
+    {
+     "k": "tabelaILAL2C2"
+    },
+    {
+     "k": "tabelaILAL2C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaILA",
+     "rows": [
+      [
+       "tabelaILAL1C1",
+       "tabelaILAL1C2",
+       null
+      ],
+      [
+       "tabelaILAL2C1",
+       "tabelaILAL2C2",
+       "tabelaILAL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "ILAFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\ILA\\ILAFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaILA"
+    },
+    {
+     "k": "refTabelaILA"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idadeGestacional"
+    },
+    {
+     "k": "semanas"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaILAL1C1"
+    },
+    {
+     "k": "tabelaILAL1C2"
+    },
+    {
+     "k": "tabelaILAL2C1"
+    },
+    {
+     "k": "tabelaILAL2C2"
+    },
+    {
+     "k": "tabelaILAL2C3"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteIG",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaILA",
+     "rows": [
+      [
+       "tabelaILAL1C1",
+       "tabelaILAL1C2",
+       null
+      ],
+      [
+       "tabelaILAL2C1",
+       "tabelaILAL2C2",
+       "tabelaILAL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "ILAFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\ILA\\ILAFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "pontosChaves"
+    },
+    {
+     "k": "ilaPontosChave1"
+    },
+    {
+     "k": "ilaPontosChave2"
+    },
+    {
+     "k": "ilaPontosChave3"
+    },
+    {
+     "k": "ilaPontosChave4"
+    },
+    {
+     "k": "figura"
+    },
+    {
+     "k": "textoFiguraILA"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "k": "ilaMedidaCorreta"
+    },
+    {
+     "k": "ilaPontosMedida1"
+    },
+    {
+     "k": "ilaPontosMedida2"
+    },
+    {
+     "k": "ilaPontosMedida3"
+    },
+    {
+     "k": "ilaPontosMedida4"
+    },
+    {
+     "k": "ilaPontosMedida5"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

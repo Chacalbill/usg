@@ -1,0 +1,375 @@
+{
+ "target": "PancreasPediatrico",
+ "tabs": [
+  {
+   "page": "PancreasPediatricoTabela",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Pancreas\\PancreasPediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTab1PancreasPediatrico"
+    },
+    {
+     "k": "headerTabela1PancreasPediatrico"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL1C1"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL1C2"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL2C1"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL2C2"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL2C3"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL2C4"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL3C1"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL3C2"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL3C3"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL3C4"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL4C1"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL4C2"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL4C3"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL4C4"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL5C1"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL5C2"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL5C3"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL5C4"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL6C1"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL6C2"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL6C3"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL6C4"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL7C1"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL7C2"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL7C3"
+    },
+    {
+     "k": "tabela1PancreasPediatricoL7C4"
+    },
+    {
+     "k": "headerTabela2PancreasPediatrico"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL1C1"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL1C2"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL2C1"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL2C2"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL3C1"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL3C2"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL4C1"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL4C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabela1PancreasPediatrico",
+     "rows": [
+      [
+       "tabela1PancreasPediatricoL1C1",
+       "tabela1PancreasPediatricoL1C2",
+       null,
+       null
+      ],
+      [
+       "tabela1PancreasPediatricoL2C1",
+       "tabela1PancreasPediatricoL2C2",
+       "tabela1PancreasPediatricoL2C3",
+       "tabela1PancreasPediatricoL2C4"
+      ],
+      [
+       "tabela1PancreasPediatricoL3C1",
+       "tabela1PancreasPediatricoL3C2",
+       "tabela1PancreasPediatricoL3C3",
+       "tabela1PancreasPediatricoL3C4"
+      ],
+      [
+       "tabela1PancreasPediatricoL4C1",
+       "tabela1PancreasPediatricoL4C2",
+       "tabela1PancreasPediatricoL4C3",
+       "tabela1PancreasPediatricoL4C4"
+      ],
+      [
+       "tabela1PancreasPediatricoL5C1",
+       "tabela1PancreasPediatricoL5C2",
+       "tabela1PancreasPediatricoL5C3",
+       "tabela1PancreasPediatricoL5C4"
+      ],
+      [
+       "tabela1PancreasPediatricoL6C1",
+       "tabela1PancreasPediatricoL6C2",
+       "tabela1PancreasPediatricoL6C3",
+       "tabela1PancreasPediatricoL6C4"
+      ],
+      [
+       "tabela1PancreasPediatricoL7C1",
+       "tabela1PancreasPediatricoL7C2",
+       "tabela1PancreasPediatricoL7C3",
+       "tabela1PancreasPediatricoL7C4"
+      ]
+     ]
+    },
+    {
+     "prefix": "tabela2PancreasPediatrico",
+     "rows": [
+      [
+       "tabela2PancreasPediatricoL1C1",
+       "tabela2PancreasPediatricoL1C2"
+      ],
+      [
+       "tabela2PancreasPediatricoL2C1",
+       "tabela2PancreasPediatricoL2C2"
+      ],
+      [
+       "tabela2PancreasPediatricoL3C1",
+       "tabela2PancreasPediatricoL3C2"
+      ],
+      [
+       "tabela2PancreasPediatricoL4C1",
+       "tabela2PancreasPediatricoL4C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "PancreasPediatricoPrincipal",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Pancreas\\PancreasPediatricoPrincipal.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "refTab1PancreasPediatrico"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idade"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "headerTabela2PancreasPediatrico"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL1C1"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL1C2"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL2C1"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL2C2"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL3C1"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL3C2"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL4C1"
+    },
+    {
+     "k": "tabela2PancreasPediatricoL4C2"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "voltar",
+    "anos",
+    "meses",
+    "dias",
+    "camposObrigatorios",
+    "digiteIdade",
+    "ok",
+    "headerTabela1PancreasPediatrico",
+    "dadosForaAlcance"
+   ],
+   "tables": [
+    {
+     "prefix": "tabela2PancreasPediatrico",
+     "rows": [
+      [
+       "tabela2PancreasPediatricoL1C1",
+       "tabela2PancreasPediatricoL1C2"
+      ],
+      [
+       "tabela2PancreasPediatricoL2C1",
+       "tabela2PancreasPediatricoL2C2"
+      ],
+      [
+       "tabela2PancreasPediatricoL3C1",
+       "tabela2PancreasPediatricoL3C2"
+      ],
+      [
+       "tabela2PancreasPediatricoL4C1",
+       "tabela2PancreasPediatricoL4C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "PancreasPediatricoExame",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Pancreas\\PancreasPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoPancreasPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoPancreasPediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaPancreasPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "PancreasPediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Pancreas\\PancreasPediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteAxial"
+    },
+    {
+     "img": "acesso_transverso_epigastro.jpg",
+     "img_key": "sourceImagemDorsalTransversoEpigastro"
+    },
+    {
+     "k": "acessoSubxifoide"
+    },
+    {
+     "k": "figura"
+    },
+    {
+     "img": "pancreas_ilust_ped.jpg",
+     "img_key": "sourceImagemPancreasIlustPed"
+    },
+    {
+     "k": "pancreas"
+    },
+    {
+     "k": "mensuracoesPancreas"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_pancreas_pediatrico.jpg",
+     "img_key": "sourceImagemPancreasPediatricoUltra"
+    },
+    {
+     "k": "medidasPancreas"
+    },
+    {
+     "k": "pancreasMensCabeca"
+    },
+    {
+     "k": "pancreasMensCorpo"
+    },
+    {
+     "k": "pancreasMensCauda"
+    },
+    {
+     "k": "mensuracao1PancreasPediatrico"
+    },
+    {
+     "img": "ultra_pancreas_adulto_ducto_b.jpg",
+     "img_key": "sourceImagemPancreasMensUltra2"
+    },
+    {
+     "k": "ductoPancreatico"
+    },
+    {
+     "k": "mensuracao2PancreasPediatrico"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

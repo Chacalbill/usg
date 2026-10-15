@@ -1,0 +1,149 @@
+{
+ "target": "RadioFetal",
+ "tabs": [
+  {
+   "page": "RadioFetalTabela",
+   "xaml": "Paginas\\Fetal\\Radio\\RadioFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "astTabelaRadio"
+    },
+    {
+     "k": "refTabelaRadio"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaRadioL1C1"
+    },
+    {
+     "k": "tabelaRadioL1C2"
+    },
+    {
+     "k": "tabelaRadioL2C1"
+    },
+    {
+     "k": "tabelaRadioL2C2"
+    },
+    {
+     "k": "tabelaRadioL2C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaRadio",
+     "rows": [
+      [
+       "tabelaRadioL1C1",
+       "tabelaRadioL1C2",
+       null
+      ],
+      [
+       "tabelaRadioL2C1",
+       "tabelaRadioL2C2",
+       "tabelaRadioL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "RadioFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\Radio\\RadioFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaRadio"
+    },
+    {
+     "k": "refTabelaRadio"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idadeGestacional"
+    },
+    {
+     "k": "semanas"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaRadioL1C1"
+    },
+    {
+     "k": "tabelaRadioL1C2"
+    },
+    {
+     "k": "tabelaRadioL2C1"
+    },
+    {
+     "k": "tabelaRadioL2C2"
+    },
+    {
+     "k": "tabelaRadioL2C3"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteIG",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaRadio",
+     "rows": [
+      [
+       "tabelaRadioL1C1",
+       "tabelaRadioL1C2",
+       null
+      ],
+      [
+       "tabelaRadioL2C1",
+       "tabelaRadioL2C2",
+       "tabelaRadioL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "RadioFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\Radio\\RadioFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "ultrassom"
+    },
+    {
+     "k": "legendaUltraRadio"
+    },
+    {
+     "k": "radioMedidaCorreta"
+    },
+    {
+     "k": "radioPontosMedida1"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

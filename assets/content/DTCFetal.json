@@ -1,0 +1,154 @@
+{
+ "target": "DTCFetal",
+ "tabs": [
+  {
+   "page": "DTCFetalTabela",
+   "xaml": "Paginas\\Fetal\\DTC\\DTCFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaDTC"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaDTCL1C1"
+    },
+    {
+     "k": "tabelaDTCL1C2"
+    },
+    {
+     "k": "tabelaDTCL2C1"
+    },
+    {
+     "k": "tabelaDTCL2C2"
+    },
+    {
+     "k": "tabelaDTCL2C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaDTC",
+     "rows": [
+      [
+       "tabelaDTCL1C1",
+       "tabelaDTCL1C2",
+       null
+      ],
+      [
+       "tabelaDTCL2C1",
+       "tabelaDTCL2C2",
+       "tabelaDTCL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "DTCFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\DTC\\DTCFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "refTabelaDTC"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "dtcSigla"
+    },
+    {
+     "k": "mm"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaDTCL1C1"
+    },
+    {
+     "k": "tabelaDTCL1C2"
+    },
+    {
+     "k": "tabelaDTCL2C1"
+    },
+    {
+     "k": "tabelaDTCL2C2"
+    },
+    {
+     "k": "tabelaDTCL2C3"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteO",
+    "dtcSigla",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaDTC",
+     "rows": [
+      [
+       "tabelaDTCL1C1",
+       "tabelaDTCL1C2",
+       null
+      ],
+      [
+       "tabelaDTCL2C1",
+       "tabelaDTCL2C2",
+       "tabelaDTCL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "DTCFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\DTC\\DTCFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_dtc_fetal.jpg",
+     "img_key": "sourceImagemDTCFetalUltra"
+    },
+    {
+     "k": "legendaUltraDTC"
+    },
+    {
+     "k": "dtcMedidaCorreta"
+    },
+    {
+     "k": "dtcPontosMedida1"
+    },
+    {
+     "k": "dtcPontosMedida2"
+    },
+    {
+     "k": "dtcPontosMedida3"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

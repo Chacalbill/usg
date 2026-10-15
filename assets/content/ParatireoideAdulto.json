@@ -1,0 +1,140 @@
+{
+ "target": "ParatireoideAdulto",
+ "tabs": [
+  {
+   "page": "ParatireoideAdultoTabela",
+   "xaml": "Paginas\\Medidas\\PequenasPartes\\Paratireoide\\ParatireoideAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "referenciaTabelaParatireoide"
+    },
+    {
+     "k": "headerTabelaParatireoide"
+    },
+    {
+     "k": "tabelaParatireoideAdultoL1C1"
+    },
+    {
+     "k": "tabelaParatireoideAdultoL1C2"
+    },
+    {
+     "k": "tabelaParatireoideAdultoL2C1"
+    },
+    {
+     "k": "tabelaParatireoideAdultoL2C2"
+    },
+    {
+     "k": "tabelaParatireoideAdultoL3C1"
+    },
+    {
+     "k": "tabelaParatireoideAdultoL3C2"
+    },
+    {
+     "k": "tabelaParatireoideAdultoL4C1"
+    },
+    {
+     "k": "tabelaParatireoideAdultoL4C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaParatireoideAdulto",
+     "rows": [
+      [
+       "tabelaParatireoideAdultoL1C1",
+       "tabelaParatireoideAdultoL1C2"
+      ],
+      [
+       "tabelaParatireoideAdultoL2C1",
+       "tabelaParatireoideAdultoL2C2"
+      ],
+      [
+       "tabelaParatireoideAdultoL3C1",
+       "tabelaParatireoideAdultoL3C2"
+      ],
+      [
+       "tabelaParatireoideAdultoL4C1",
+       "tabelaParatireoideAdultoL4C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "ParatireoideAdultoExame",
+   "xaml": "Paginas\\Medidas\\PequenasPartes\\Paratireoide\\ParatireoideAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoParatireoideAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoParatireoideAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaParatireoideAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "ParatireoideAdultoTecnica",
+   "xaml": "Paginas\\Medidas\\PequenasPartes\\Paratireoide\\ParatireoideAdultoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "ultrassomPlanoCorteLongitudinal"
+    },
+    {
+     "img": "ultra_paratireoides_longitudinal.jpg",
+     "img_key": "sourceImagemParatireoideAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaTireoideAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaUltraDiametroLongitudinal"
+    },
+    {
+     "k": "legendaUltraDiametroAntero"
+    },
+    {
+     "k": "ultrassomPlanoCorteAxial"
+    },
+    {
+     "img": "ultra_paratireoides_transverso.jpg",
+     "img_key": "sourceImagemParatireoideAdultoAxialUltra"
+    },
+    {
+     "k": "espessura"
+    },
+    {
+     "k": "legendaUltraDiametroTransverso"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

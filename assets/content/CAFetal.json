@@ -1,0 +1,152 @@
+{
+ "target": "CAFetal",
+ "tabs": [
+  {
+   "page": "CAFetalTabela",
+   "xaml": "Paginas\\Fetal\\CA\\CAFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "astTabelaCA1"
+    },
+    {
+     "k": "astTabelaCA2"
+    },
+    {
+     "k": "refTabelaCA"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaCAL1C1"
+    },
+    {
+     "k": "tabelaCAL1C2"
+    },
+    {
+     "k": "tabelaCAL1C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaCA",
+     "rows": [
+      [
+       "tabelaCAL1C1",
+       "tabelaCAL1C2",
+       "tabelaCAL1C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "CAFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\CA\\CAFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaCA1"
+    },
+    {
+     "k": "refTabelaCA"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "caSigla"
+    },
+    {
+     "k": "mm"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaCAL1C1"
+    },
+    {
+     "k": "tabelaCAL1C2"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteO",
+    "caSigla",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaCA",
+     "rows": [
+      [
+       "tabelaCAL1C1",
+       "tabelaCAL1C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "CAFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\CA\\CAFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "pontosChaves"
+    },
+    {
+     "k": "caPontosChave1"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_ca_fetal.jpg",
+     "img_key": "sourceImagemCAFetalUltra"
+    },
+    {
+     "k": "figura"
+    },
+    {
+     "k": "caMedidaCorreta"
+    },
+    {
+     "k": "caPontosMedida1"
+    },
+    {
+     "k": "caPontosMedida2"
+    },
+    {
+     "k": "caPontosMedida3"
+    },
+    {
+     "k": "caPontosMedida4"
+    },
+    {
+     "k": "caPontosMedida5"
+    },
+    {
+     "k": "caPontosMedida6"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

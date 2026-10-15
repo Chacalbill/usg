@@ -1,0 +1,165 @@
+{
+ "target": "TireoideAdulto",
+ "tabs": [
+  {
+   "page": "TireoideAdultoTabela",
+   "xaml": "Paginas\\Medidas\\PequenasPartes\\Tireoide\\TireoideAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "referenciaTabelaTireoideAdulto"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaTireoideAdultoL1C1"
+    },
+    {
+     "k": "tabelaTireoideAdultoL1C2"
+    },
+    {
+     "k": "tabelaTireoideAdultoL1C3"
+    },
+    {
+     "k": "tabelaTireoideAdultoL2C1"
+    },
+    {
+     "k": "tabelaTireoideAdultoL2C2"
+    },
+    {
+     "k": "tabelaTireoideAdultoL2C3"
+    },
+    {
+     "k": "tabelaTireoideAdultoL3C1"
+    },
+    {
+     "k": "tabelaTireoideAdultoL3C2"
+    },
+    {
+     "k": "tabelaTireoideAdultoL3C3"
+    },
+    {
+     "k": "astTabelaTireoideAdulto"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaTireoideAdulto",
+     "rows": [
+      [
+       "tabelaTireoideAdultoL1C1",
+       "tabelaTireoideAdultoL1C2",
+       "tabelaTireoideAdultoL1C3"
+      ],
+      [
+       "tabelaTireoideAdultoL2C1",
+       "tabelaTireoideAdultoL2C2",
+       "tabelaTireoideAdultoL2C3"
+      ],
+      [
+       "tabelaTireoideAdultoL3C1",
+       "tabelaTireoideAdultoL3C2",
+       "tabelaTireoideAdultoL3C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "TireoideAdultoExame",
+   "xaml": "Paginas\\Medidas\\PequenasPartes\\Tireoide\\TireoideAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoTireoideAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoTireoideAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaTireoideAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "TireoideAdultoTecnica",
+   "xaml": "Paginas\\Medidas\\PequenasPartes\\Tireoide\\TireoideAdultoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "corte_sagital_lobo_tireoidiano.jpg",
+     "img_key": "sourceImagemTireoideSagital"
+    },
+    {
+     "k": "legendaPlanoCorteLongitudinal"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_tireoide_adulto_longitudinal.jpg",
+     "img_key": "sourceImagemTireoideAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaTireoideAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaUltraDiametroLongitudinal"
+    },
+    {
+     "k": "legendaUltraDiametroAntero"
+    },
+    {
+     "k": "planoCorteAxial"
+    },
+    {
+     "img": "corte_axial_lobo_tireoidiano.jpg",
+     "img_key": "sourceImagemTireoideAxial"
+    },
+    {
+     "k": "legendaPlanoCorteAxial"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_tireoide_adulto_axial.jpg",
+     "img_key": "sourceImagemTireoideAdultoAxialUltra"
+    },
+    {
+     "k": "espessura"
+    },
+    {
+     "k": "legendaUltraDiametroTransverso"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

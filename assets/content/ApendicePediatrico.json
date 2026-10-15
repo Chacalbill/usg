@@ -1,0 +1,159 @@
+{
+ "target": "ApendicePediatrico",
+ "tabs": [
+  {
+   "page": "ApendicePediatricoTabela",
+   "xaml": "Paginas\\Medidas\\TratoGastrintestinal\\Apendice\\ApendicePediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "referenciaApendiceAdulto1"
+    },
+    {
+     "k": "referenciaApendicePediatrico1"
+    },
+    {
+     "k": "headerTabelaApendice"
+    },
+    {
+     "k": "tabelaApendiceL1C1"
+    },
+    {
+     "k": "tabelaApendiceL2C1"
+    },
+    {
+     "k": "tabelaApendiceL3C1"
+    },
+    {
+     "k": "tabelaApendiceL4C1"
+    },
+    {
+     "k": "astApendiceTabela1"
+    },
+    {
+     "k": "astApendiceTabela2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaApendice",
+     "rows": [
+      [
+       "tabelaApendiceL1C1"
+      ],
+      [
+       "tabelaApendiceL2C1"
+      ],
+      [
+       "tabelaApendiceL3C1"
+      ],
+      [
+       "tabelaApendiceL4C1"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "ApendicePediatricoExame",
+   "xaml": "Paginas\\Medidas\\TratoGastrintestinal\\Apendice\\ApendicePediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoApendicePediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoApendice"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaApendiceAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "ApendicePediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\TratoGastrintestinal\\Apendice\\ApendicePediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "referenciaApendiceAdulto1"
+    },
+    {
+     "k": "referenciaApendicePediatrico1"
+    },
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "apendice_longitudinal.jpg",
+     "img_key": "sourceImagemApendiceLongitudinalGrafico"
+    },
+    {
+     "k": "acessoObliquoMcBurney"
+    },
+    {
+     "k": "ultrassomPlanoCorteLongitudinal"
+    },
+    {
+     "img": "ultra_apendice_pediatria_longitudinal.jpg",
+     "img_key": "sourceImagemApendicePediatricoUltraLongitudinal"
+    },
+    {
+     "k": "legendaApendiceAdultoUltraLongitudinal"
+    },
+    {
+     "k": "legendaMedidaApendiceAdultoLongitudinalDiametro"
+    },
+    {
+     "k": "astApendicePediatricoLongitudinal"
+    },
+    {
+     "k": "planoCorteAxial"
+    },
+    {
+     "img": "apendice_transverso.jpg",
+     "img_key": "sourceImagemApendiceTransversoGrafico"
+    },
+    {
+     "k": "acessoObliquoMcBurney90"
+    },
+    {
+     "k": "ultrassomPlanoCorteAxial"
+    },
+    {
+     "img": "ultra_apendice_pediatria_axial.jpg",
+     "img_key": "sourceImagemApendicePediatricoUltraAxial"
+    },
+    {
+     "k": "legendaApendiceAdultoUltraAxial"
+    },
+    {
+     "k": "legendaMedidaApendiceAdultoAxialEspessura"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

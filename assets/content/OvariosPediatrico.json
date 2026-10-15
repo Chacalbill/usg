@@ -1,0 +1,91 @@
+{
+ "target": "OvariosPediatrico",
+ "tabs": [
+  {
+   "page": "OvariosPediatricoTabela",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Ovarios\\OvariosPediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaOvariosPediatrico"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "astTabelaOvariosPediatricoCalc"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "OvariosPediatricoExame",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Ovarios\\OvariosPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoOvariosPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoOvariosPediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaOvariosPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "OvariosPediatricoPrincipal",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Ovarios\\OvariosPediatricoPrincipal.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "refTabelaOvariosPediatrico"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idade"
+    },
+    {
+     "k": "anos"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "astTabelaOvariosPediatricoCalc"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "voltar",
+    "camposObrigatorios",
+    "digiteIdade",
+    "ok",
+    "tabelas",
+    "dadosForaAlcance"
+   ],
+   "tables": []
+  }
+ ]
+}

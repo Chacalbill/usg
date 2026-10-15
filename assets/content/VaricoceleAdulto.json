@@ -1,0 +1,157 @@
+{
+ "target": "VaricoceleAdulto",
+ "tabs": [
+  {
+   "page": "VaricoceleAdultoTabela",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Varicocele\\VaricoceleAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "referenciaTabelaVaricocele"
+    },
+    {
+     "k": "headerTabelaVaricocele"
+    },
+    {
+     "k": "tabelaVaricoceleAdultoL1C1"
+    },
+    {
+     "k": "tabelaVaricoceleAdultoL1C2"
+    },
+    {
+     "k": "tabelaVaricoceleAdultoL2C1"
+    },
+    {
+     "k": "tabelaVaricoceleAdultoL2C2"
+    },
+    {
+     "k": "tabelaVaricoceleAdultoL3C1"
+    },
+    {
+     "k": "tabelaVaricoceleAdultoL3C2"
+    },
+    {
+     "k": "tabelaVaricoceleAdultoL4C1"
+    },
+    {
+     "k": "tabelaVaricoceleAdultoL4C2"
+    },
+    {
+     "k": "tabelaVaricoceleAdultoL5C1"
+    },
+    {
+     "k": "tabelaVaricoceleAdultoL5C2"
+    },
+    {
+     "k": "tabelaVaricoceleAdultoL6C1"
+    },
+    {
+     "k": "tabelaVaricoceleAdultoL6C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaVaricoceleAdulto",
+     "rows": [
+      [
+       "tabelaVaricoceleAdultoL1C1",
+       "tabelaVaricoceleAdultoL1C2"
+      ],
+      [
+       "tabelaVaricoceleAdultoL2C1",
+       "tabelaVaricoceleAdultoL2C2"
+      ],
+      [
+       "tabelaVaricoceleAdultoL3C1",
+       "tabelaVaricoceleAdultoL3C2"
+      ],
+      [
+       "tabelaVaricoceleAdultoL4C1",
+       "tabelaVaricoceleAdultoL4C2"
+      ],
+      [
+       "tabelaVaricoceleAdultoL5C1",
+       "tabelaVaricoceleAdultoL5C2"
+      ],
+      [
+       "tabelaVaricoceleAdultoL6C1",
+       "tabelaVaricoceleAdultoL6C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "VaricoceleAdultoExame",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Varicocele\\VaricoceleAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoVaricoceleAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoVaricoceleAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaVaricoceleAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "VaricoceleAdultoTecnica",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Varicocele\\VaricoceleAdultoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "ultrassomPlanoCorteLongitudinal"
+    },
+    {
+     "img": "ultra_varicocele.jpg",
+     "img_key": "sourceImagemVaricoceleAdultoUltra"
+    },
+    {
+     "k": "legendaVaricoceleAdultoLongitudinalUltraModoB"
+    },
+    {
+     "k": "legendaUltraDiametroVaricoceleModoB"
+    },
+    {
+     "k": "textoUltraDiametroVaricoceleModoB"
+    },
+    {
+     "img": "ultra_varicocele2.jpg",
+     "img_key": "sourceImagemVaricoceleAdultoUltra2"
+    },
+    {
+     "k": "legendaVaricoceleAdultoLongitudinalUltraDoppler"
+    },
+    {
+     "k": "textoUltraDiametroVaricoceleDoppler"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

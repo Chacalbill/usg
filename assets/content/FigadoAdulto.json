@@ -1,0 +1,149 @@
+{
+ "target": "FigadoAdulto",
+ "tabs": [
+  {
+   "page": "FigadoAdultoTabela",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Figado\\FigadoAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "referenciaTabelaFigadoAdulto1"
+    },
+    {
+     "k": "referenciaTabelaFigadoAdulto2"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaFigadoAdultoL1C1"
+    },
+    {
+     "k": "tabelaFigadoAdultoL1C2"
+    },
+    {
+     "k": "tabelaFigadoAdultoL2C1"
+    },
+    {
+     "k": "tabelaFigadoAdultoL2C2"
+    },
+    {
+     "k": "ast2TabelaFigadoAdulto"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaFigadoAdulto",
+     "rows": [
+      [
+       "tabelaFigadoAdultoL1C1",
+       "tabelaFigadoAdultoL1C2"
+      ],
+      [
+       "tabelaFigadoAdultoL2C1",
+       "tabelaFigadoAdultoL2C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "FigadoAdultoExame",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Figado\\FigadoAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoFigadoAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoFigadoAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaFigadoAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "FigadoAdultoLongitudinal",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Figado\\FigadoAdultoLongitudinal.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_longitudinal_sagital_medio_esternal.jpg",
+     "img_key": "sourceImagemDorsalLongitudinalSagital"
+    },
+    {
+     "k": "acessoSagitalMedioEsternal"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_figado_le.jpg",
+     "img_key": "sourceImagemFigadoAdultoLEUltra"
+    },
+    {
+     "k": "legendaFigadoAdultoLEUltra"
+    },
+    {
+     "k": "legendaFigadoAdultoLEUltraDiametro"
+    },
+    {
+     "k": "textoFigadoAdultoLEUltra"
+    },
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_subcostal_parassagital_direito.jpg",
+     "img_key": "sourceImagemDorsalSubcostalParassagitalDireito"
+    },
+    {
+     "k": "acessoSubcostalParassagitalDireito"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_figado_ld.jpg",
+     "img_key": "sourceImagemFigadoAdultoLDUltra"
+    },
+    {
+     "k": "legendaFigadoAdultoLDUltra"
+    },
+    {
+     "k": "legendaFigadoAdultoLDUltraDiametro"
+    },
+    {
+     "k": "textoFigadoAdultoLDUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

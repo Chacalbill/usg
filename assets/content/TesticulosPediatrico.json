@@ -1,0 +1,135 @@
+{
+ "target": "TesticulosPediatrico",
+ "tabs": [
+  {
+   "page": "TesticulosPediatricoTabela",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Testiculos\\TesticulosPediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaTesticulosPediatrico"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "astTabelaTesticuloPediatrico"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "TesticulosPediatricoPrincipal",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Testiculos\\TesticulosPediatricoPrincipal.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "refTabelaTesticulosPediatrico"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idade"
+    },
+    {
+     "k": "anos"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "astTabelaTesticuloPediatrico"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "voltar",
+    "camposObrigatorios",
+    "digiteIdade",
+    "ok",
+    "tabelas",
+    "dadosForaAlcance"
+   ],
+   "tables": []
+  },
+  {
+   "page": "TesticulosPediatricoExame",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Testiculos\\TesticulosPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoTesticulosPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoTesticulosPediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaTesticulosPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "TesticulosPediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Testiculos\\TesticulosPediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "ultrassomPlanoCorteLongitudinal"
+    },
+    {
+     "img": "ultra_testiculo_pediatrico_longitudinal.jpg",
+     "img_key": "sourceImagemTesticulosPediatricoLongitudinalUltra"
+    },
+    {
+     "k": "legendaTesticulosAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaUltraDiametroLongitudinal"
+    },
+    {
+     "k": "ultrassomPlanoCorteTransversal"
+    },
+    {
+     "img": "ultra_testiculo_pediatrico_axial.jpg",
+     "img_key": "sourceImagemTesticulosPediatricoAxialUltra"
+    },
+    {
+     "k": "legendaTesticulosAdultoAxialUltra"
+    },
+    {
+     "k": "legendaUltraDiametroTransverso"
+    },
+    {
+     "k": "legendaUltraDiametroAntero"
+    },
+    {
+     "k": "textoTesticulosAdultoAxialUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

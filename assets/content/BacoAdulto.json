@@ -1,0 +1,197 @@
+{
+ "target": "BacoAdulto",
+ "tabs": [
+  {
+   "page": "BacoAdultoTabela",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Baco\\BacoAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "referenciaBacoAdulto2"
+    },
+    {
+     "k": "referenciaBacoAdulto"
+    },
+    {
+     "k": "headerTabelaBacoAdulto"
+    },
+    {
+     "k": "tabelaBacoAdultoL1C1"
+    },
+    {
+     "k": "tabelaBacoAdultoL1C2"
+    },
+    {
+     "k": "tabelaBacoAdultoL2C1"
+    },
+    {
+     "k": "tabelaBacoAdultoL2C2"
+    },
+    {
+     "k": "tabelaBacoAdultoL3C1"
+    },
+    {
+     "k": "tabelaBacoAdultoL3C2"
+    },
+    {
+     "k": "tabelaBacoAdultoL4C1"
+    },
+    {
+     "k": "tabelaBacoAdultoL4C2"
+    },
+    {
+     "k": "tabelaBacoAdultoL5C1"
+    },
+    {
+     "k": "tabelaBacoAdultoL5C2"
+    },
+    {
+     "k": "tabelaBacoAdultoL6C1"
+    },
+    {
+     "k": "tabelaBacoAdultoL6C2"
+    },
+    {
+     "k": "astTabelaBacoAdulto"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaBacoAdulto",
+     "rows": [
+      [
+       "tabelaBacoAdultoL1C1",
+       "tabelaBacoAdultoL1C2"
+      ],
+      [
+       "tabelaBacoAdultoL2C1",
+       "tabelaBacoAdultoL2C2"
+      ],
+      [
+       "tabelaBacoAdultoL3C1",
+       "tabelaBacoAdultoL3C2"
+      ],
+      [
+       "tabelaBacoAdultoL4C1",
+       "tabelaBacoAdultoL4C2"
+      ],
+      [
+       "tabelaBacoAdultoL5C1",
+       "tabelaBacoAdultoL5C2"
+      ],
+      [
+       "tabelaBacoAdultoL6C1",
+       "tabelaBacoAdultoL6C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "BacoAdultoExame",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Baco\\BacoAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoBacoAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoBacoAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaBacoAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "BacoAdultoLongitudinal",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Baco\\BacoAdultoLongitudinal.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteCoronal"
+    },
+    {
+     "img": "acesso_intercostal_flanco_esquerdo.jpg",
+     "img_key": "sourceImagemLateralIntercostalFlancoEsquerdo"
+    },
+    {
+     "k": "acessoIntercostal"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_baco_adulto_longitudinal.jpg",
+     "img_key": "sourceImagemBacoAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaBacoAdultoLongitudinalUltra"
+    },
+    {
+     "k": "eixoLongitudinal"
+    },
+    {
+     "k": "textoBacoAdultoLongitudinalUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "BacoAdultoIndiceEsplenico",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Baco\\BacoAdultoIndiceEsplenico.xaml",
+   "title_key": "indice_esplenico",
+   "blocks": [
+    {
+     "k": "referenciaBacoAdulto"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_baco_adulto_ind_esp.jpg",
+     "img_key": "sourceImagemBacoAdultoIEUltra"
+    },
+    {
+     "k": "legendaBacoAdultoIEUltra"
+    },
+    {
+     "k": "eixoTransversal"
+    },
+    {
+     "k": "eixoLongitudinal"
+    },
+    {
+     "k": "textoBacoAdultoIEUltra"
+    }
+   ],
+   "code_keys": [
+    "indice_esplenico",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

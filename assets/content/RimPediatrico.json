@@ -1,0 +1,131 @@
+{
+ "target": "RimPediatrico",
+ "tabs": [
+  {
+   "page": "RimPediatricoTabela",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Rim\\RimPediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaRimPediatricoRosenbaum"
+    },
+    {
+     "k": "headerTabelaRimPediatricoRosenbaum"
+    },
+    {
+     "k": "astTabelaRimPediatricoRosenbaum"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "RimPediatricoPrincipal",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Rim\\RimPediatricoPrincipal.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "refTabelaRimPediatricoRosenbaum"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "faixaEtaria"
+    },
+    {
+     "k": "idade"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "astTabelaRimPediatricoRosenbaum"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "voltar",
+    "menorQueUmAno",
+    "maiorQueUmAno",
+    "meses",
+    "semanas",
+    "anos",
+    "headerTabelaRimPediatricoRosenbaum",
+    "camposObrigatorios",
+    "digiteIdade",
+    "ok",
+    "dadosForaAlcance"
+   ],
+   "tables": []
+  },
+  {
+   "page": "RimPediatricoExame",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Rim\\RimPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoRimPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoRimPediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaRimPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "RimPediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Rim\\RimPediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteCoronal"
+    },
+    {
+     "img": "acesso_flanco_direito.jpg",
+     "img_key": "sourceImagemLateralFlancoDireito"
+    },
+    {
+     "k": "acessoFlanco"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_rim_pediatrico.jpg",
+     "img_key": "sourceImagemRimPediatricoUltra"
+    },
+    {
+     "k": "legendaRimDireitoFlanco"
+    },
+    {
+     "k": "eixoLongitudinal"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

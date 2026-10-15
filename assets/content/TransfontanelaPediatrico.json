@@ -1,0 +1,158 @@
+{
+ "target": "TransfontanelaPediatrico",
+ "tabs": [
+  {
+   "page": "TransfontanelaPediatricoTabela",
+   "xaml": "Paginas\\Medidas\\PequenasPartes\\Transfontanela\\TransfontanelaPediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTransfontanelaPediatrico"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaTransfontanelaPediatricoL0C1"
+    },
+    {
+     "k": "tabelaTransfontanelaPediatricoL0C2"
+    },
+    {
+     "k": "tabelaTransfontanelaPediatricoL1C1"
+    },
+    {
+     "k": "tabelaTransfontanelaPediatricoL1C2"
+    },
+    {
+     "k": "tabelaTransfontanelaPediatricoL2C1"
+    },
+    {
+     "k": "tabelaTransfontanelaPediatricoL2C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaTransfontanelaPediatrico",
+     "rows": [
+      [
+       "tabelaTransfontanelaPediatricoL1C1",
+       "tabelaTransfontanelaPediatricoL1C2"
+      ],
+      [
+       "tabelaTransfontanelaPediatricoL2C1",
+       "tabelaTransfontanelaPediatricoL2C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "TransfontanelaPediatricoExame",
+   "xaml": "Paginas\\Medidas\\PequenasPartes\\Transfontanela\\TransfontanelaPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoTransfontanelaPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoTransfontanelaPediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaTransfontanelaPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "TransfontanelaPediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\PequenasPartes\\Transfontanela\\TransfontanelaPediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteCoronal"
+    },
+    {
+     "img": "plano_coronal_transfontanela.jpg",
+     "img_key": "sourceImagemTransfontanelaCoronal"
+    },
+    {
+     "k": "legendaTransfontanelaCoronal"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_transfontanela_pediatrico_coronal.jpg",
+     "img_key": "sourceImagemTransfontanelaCoronalUltra"
+    },
+    {
+     "k": "legendaTransfontanelaCoronalUltra"
+    },
+    {
+     "k": "transfontanelaCoronalUltraAHW"
+    },
+    {
+     "k": "textoTransfontanelaCoronalUltra"
+    },
+    {
+     "k": "legendaEspessuraUltraTransfontanela"
+    },
+    {
+     "k": "textoEspessuraUltraTransfontanela"
+    },
+    {
+     "k": "planoCorteParassagitalTransfontanela"
+    },
+    {
+     "img": "plano_parassagital_transfontanela.jpg",
+     "img_key": "sourceImagemTransfontanelaParassagital"
+    },
+    {
+     "k": "legendaTransfontanelaCoronal"
+    },
+    {
+     "k": "textoPlanoCorteParassagitalTransfontanela"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_transfontanela_pediatrico_sagital.jpg",
+     "img_key": "sourceImagemTransfontanelaSagitalUltra"
+    },
+    {
+     "k": "legendaTransfontanelaSagitalUltra"
+    },
+    {
+     "k": "transfontanelaSagitalUltraTOD"
+    },
+    {
+     "k": "textoTransfontanelaSagitalUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

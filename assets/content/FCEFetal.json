@@ -1,0 +1,169 @@
+{
+ "target": "FCEFetal",
+ "tabs": [
+  {
+   "page": "FCEFetalTabela",
+   "xaml": "Paginas\\Fetal\\FCE\\FCEFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaFCE1"
+    },
+    {
+     "k": "refTabelaFCE2"
+    },
+    {
+     "k": "refTabelaFCE3"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaFCEL1C1"
+    },
+    {
+     "k": "tabelaFCEL1C2"
+    },
+    {
+     "k": "tabelaFCEL2C1"
+    },
+    {
+     "k": "tabelaFCEL2C2"
+    },
+    {
+     "k": "tabelaFCEL2C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaFCE",
+     "rows": [
+      [
+       "tabelaFCEL1C1",
+       "tabelaFCEL1C2",
+       null
+      ],
+      [
+       "tabelaFCEL2C1",
+       "tabelaFCEL2C2",
+       "tabelaFCEL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "FCEFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\FCE\\FCEFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "refTabelaFCE1"
+    },
+    {
+     "k": "refTabelaFCE2"
+    },
+    {
+     "k": "refTabelaFCE3"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "ccnSigla"
+    },
+    {
+     "k": "mm"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaFCEL1C1"
+    },
+    {
+     "k": "tabelaFCEL1C2"
+    },
+    {
+     "k": "tabelaFCEL2C1"
+    },
+    {
+     "k": "tabelaFCEL2C2"
+    },
+    {
+     "k": "tabelaFCEL2C3"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteO",
+    "ccnSigla",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaFCE",
+     "rows": [
+      [
+       "tabelaFCEL1C1",
+       "tabelaFCEL1C2",
+       null
+      ],
+      [
+       "tabelaFCEL2C1",
+       "tabelaFCEL2C2",
+       "tabelaFCEL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "FCEFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\FCE\\FCEFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "pontosChaves"
+    },
+    {
+     "k": "fcePontosChave1"
+    },
+    {
+     "k": "fcePontosChave2"
+    },
+    {
+     "k": "fcePontosChave3"
+    },
+    {
+     "k": "fcePontosChave4"
+    },
+    {
+     "k": "fcePontosChave5"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_fce_fetal.jpg",
+     "img_key": "sourceImagemFCEFetalUltra"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

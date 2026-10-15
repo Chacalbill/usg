@@ -1,0 +1,149 @@
+{
+ "target": "UlnaFetal",
+ "tabs": [
+  {
+   "page": "UlnaFetalTabela",
+   "xaml": "Paginas\\Fetal\\Ulna\\UlnaFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "astTabelaUlna"
+    },
+    {
+     "k": "refTabelaUlna"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaUlnaL1C1"
+    },
+    {
+     "k": "tabelaUlnaL1C2"
+    },
+    {
+     "k": "tabelaUlnaL2C1"
+    },
+    {
+     "k": "tabelaUlnaL2C2"
+    },
+    {
+     "k": "tabelaUlnaL2C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaUlna",
+     "rows": [
+      [
+       "tabelaUlnaL1C1",
+       "tabelaUlnaL1C2",
+       null
+      ],
+      [
+       "tabelaUlnaL2C1",
+       "tabelaUlnaL2C2",
+       "tabelaUlnaL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "UlnaFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\Ulna\\UlnaFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaUlna"
+    },
+    {
+     "k": "refTabelaUlna"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idadeGestacional"
+    },
+    {
+     "k": "semanas"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaUlnaL1C1"
+    },
+    {
+     "k": "tabelaUlnaL1C2"
+    },
+    {
+     "k": "tabelaUlnaL2C1"
+    },
+    {
+     "k": "tabelaUlnaL2C2"
+    },
+    {
+     "k": "tabelaUlnaL2C3"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteIG",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaUlna",
+     "rows": [
+      [
+       "tabelaUlnaL1C1",
+       "tabelaUlnaL1C2",
+       null
+      ],
+      [
+       "tabelaUlnaL2C1",
+       "tabelaUlnaL2C2",
+       "tabelaUlnaL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "UlnaFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\Ulna\\UlnaFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "ultrassom"
+    },
+    {
+     "k": "legendaUltraUlna"
+    },
+    {
+     "k": "ulnaMedidaCorreta"
+    },
+    {
+     "k": "ulnaPontosMedida1"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

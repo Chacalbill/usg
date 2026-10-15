@@ -1,0 +1,14 @@
+{
+ "page": "FaixaEtaria",
+ "xaml": null,
+ "blocks": [
+  {
+   "k": "faixaEtaria"
+  }
+ ],
+ "code_keys": [
+  "Pediatria",
+  "Adultos",
+  "fetal"
+ ]
+}

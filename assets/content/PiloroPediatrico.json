@@ -1,0 +1,148 @@
+{
+ "target": "PiloroPediatrico",
+ "tabs": [
+  {
+   "page": "PiloroPediatricoTabela",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Piloro\\PiloroPediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "referenciaPiloroTabela1"
+    },
+    {
+     "k": "referenciaPiloroTabela2"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaPiloroL1C1"
+    },
+    {
+     "k": "tabelaPiloroL1C2"
+    },
+    {
+     "k": "tabelaPiloroL2C1"
+    },
+    {
+     "k": "tabelaPiloroL2C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaPiloro",
+     "rows": [
+      [
+       "tabelaPiloroL1C1",
+       "tabelaPiloroL1C2"
+      ],
+      [
+       "tabelaPiloroL2C1",
+       "tabelaPiloroL2C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "PiloroPediatricoExame",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Piloro\\PiloroPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoPiloroPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoPiloroPediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaPiloroPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "PiloroPediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Piloro\\PiloroPediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "piloro_longitudinal.jpg",
+     "img_key": "sourceImagemPiloroLongitudinalGrafico"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "k": "legendaPiloroLongitudinalUltra"
+    },
+    {
+     "k": "legendaPiloroLongitudinalUltraEspessura"
+    },
+    {
+     "k": "astPiloroUltraVB"
+    },
+    {
+     "k": "legendaPiloroLongitudinalUltra"
+    },
+    {
+     "k": "legendaPiloroLongitudinalUltraComprimento"
+    },
+    {
+     "k": "astPiloroUltraVB"
+    },
+    {
+     "k": "planoCorteTransversal"
+    },
+    {
+     "img": "piloro_transverso.jpg",
+     "img_key": "sourceImagemPiloroTransversoGrafico"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_piloro_transverso.jpg",
+     "img_key": "sourceImagemPiloroTransversoUltra"
+    },
+    {
+     "k": "legendaPiloroTransversalUltra"
+    },
+    {
+     "k": "legendaPiloroLongitudinalUltraEspessura"
+    },
+    {
+     "k": "astPiloroUltraTransverso1"
+    },
+    {
+     "k": "astPiloroUltraTransverso2"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

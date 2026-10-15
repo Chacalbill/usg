@@ -1,0 +1,188 @@
+{
+ "target": "Prostata",
+ "tabs": [
+  {
+   "page": "ProstataMedida",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Prostata\\ProstataMedida.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaProstata"
+    },
+    {
+     "k": "refProstataIPP"
+    },
+    {
+     "k": "tabelaPraticoProstataHeader1"
+    },
+    {
+     "k": "tabelaProstataL1C1"
+    },
+    {
+     "k": "tabelaProstataL1C2"
+    },
+    {
+     "k": "tabelaPraticoProstataHeader2"
+    },
+    {
+     "k": "prostataIPPGrau1"
+    },
+    {
+     "k": "prostataIPPGrau1Valor"
+    },
+    {
+     "k": "prostataIPPGrau2"
+    },
+    {
+     "k": "prostataIPPGrau2Valor"
+    },
+    {
+     "k": "prostataIPPGrau3"
+    },
+    {
+     "k": "prostataIPPGrau3Valor"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaProstata",
+     "rows": [
+      [
+       "tabelaProstataL1C1",
+       "tabelaProstataL1C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "ProstataIPP",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Prostata\\ProstataIPP.xaml",
+   "title_key": "ipp",
+   "blocks": [
+    {
+     "k": "figura"
+    },
+    {
+     "k": "legendaProstataIPP"
+    },
+    {
+     "k": "textoProstataIPP"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_prostata_ipp.jpg",
+     "img_key": "sourceImagemProstataIPPUltra"
+    },
+    {
+     "k": "legendaProstataIPPUltra"
+    },
+    {
+     "k": "legendaProstataIPPUltraMedida"
+    }
+   ],
+   "code_keys": [
+    "ipp",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "ProstataExame",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Prostata\\ProstataExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoProstata"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoProstata"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaProstata"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "ProstataTecnica",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Masculino\\Prostata\\ProstataTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_longitudinal_suprapubico.jpg",
+     "img_key": "sourceImagemDorsalLongitudinalSuprapubico"
+    },
+    {
+     "k": "acessoSagitalMedianoSuprapubico"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_prostata_longitudinal.jpg",
+     "img_key": "sourceImagemProstataLongitudinalUltra"
+    },
+    {
+     "k": "legendaProstataLongitudinalUltra"
+    },
+    {
+     "k": "legendaUltraDiametroLongitudinal"
+    },
+    {
+     "k": "legendaUltraDiametroAntero"
+    },
+    {
+     "k": "planoCorteAxial"
+    },
+    {
+     "img": "acesso_transverso_suprapubico.jpg",
+     "img_key": "sourceImagemDorsalTransversoSuprapubico"
+    },
+    {
+     "k": "acessoTransversoSuprapubico"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_prostata_transverso.jpg",
+     "img_key": "sourceImagemProstataTransversoUltra"
+    },
+    {
+     "k": "legendaProstataTransversoUltra"
+    },
+    {
+     "k": "legendaUltraDiametroTransverso"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

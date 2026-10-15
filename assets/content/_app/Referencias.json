@@ -1,0 +1,16 @@
+{
+ "page": "Referencias",
+ "xaml": null,
+ "blocks": [
+  {
+   "k": "referencias"
+  },
+  {
+   "img": "ic_keyboard_arrow_down_white_24dp.png",
+   "img_key": "sourceImagemIconDown"
+  }
+ ],
+ "code_keys": [
+  "ResourceManager"
+ ]
+}

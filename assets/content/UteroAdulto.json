@@ -1,0 +1,416 @@
+{
+ "target": "UteroAdulto",
+ "tabs": [
+  {
+   "page": "UteroAdultoMedidas",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Utero\\UteroAdultoMedidas.xaml",
+   "title_key": "medidas",
+   "blocks": [
+    {
+     "k": "medidas"
+    }
+   ],
+   "code_keys": [
+    "medidas",
+    "voltar",
+    "menacme",
+    "menopausa",
+    "diu",
+    "varizesPelvicas"
+   ],
+   "tables": [],
+   "subpages": [
+    {
+     "page": "UteroAdultoPreMenopausa",
+     "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Utero\\UteroAdultoPreMenopausa.xaml",
+     "title_key": "menacme",
+     "blocks": [
+      {
+       "k": "refTabelaUteroAdultoPreMenopausa"
+      },
+      {
+       "k": "inicio"
+      },
+      {
+       "img": "ic_action_home_icon.png",
+       "img_key": "sourceImagemIconHome"
+      },
+      {
+       "k": "headerTabela1UteroAdultoPreMenopausa"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL1C1"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL1C2"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL1C3"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL2C1"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL2C2"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL2C3"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL3C1"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL3C2"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL3C3"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL4C1"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL4C2"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL4C3"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL5C1"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL5C2"
+      },
+      {
+       "k": "tabela1UteroAdultoPreMenopausaL5C3"
+      },
+      {
+       "k": "astTabela1UteroAdultoPreMenopausa"
+      }
+     ],
+     "code_keys": [
+      "menacme",
+      "voltar"
+     ],
+     "tables": [
+      {
+       "prefix": "tabela1UteroAdultoPreMenopausa",
+       "rows": [
+        [
+         "tabela1UteroAdultoPreMenopausaL1C1",
+         "tabela1UteroAdultoPreMenopausaL1C2",
+         "tabela1UteroAdultoPreMenopausaL1C3"
+        ],
+        [
+         "tabela1UteroAdultoPreMenopausaL2C1",
+         "tabela1UteroAdultoPreMenopausaL2C2",
+         "tabela1UteroAdultoPreMenopausaL2C3"
+        ],
+        [
+         "tabela1UteroAdultoPreMenopausaL3C1",
+         "tabela1UteroAdultoPreMenopausaL3C2",
+         "tabela1UteroAdultoPreMenopausaL3C3"
+        ],
+        [
+         "tabela1UteroAdultoPreMenopausaL4C1",
+         "tabela1UteroAdultoPreMenopausaL4C2",
+         "tabela1UteroAdultoPreMenopausaL4C3"
+        ],
+        [
+         "tabela1UteroAdultoPreMenopausaL5C1",
+         "tabela1UteroAdultoPreMenopausaL5C2",
+         "tabela1UteroAdultoPreMenopausaL5C3"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "page": "UteroAdultoPosMenopausa",
+     "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Utero\\UteroAdultoPosMenopausa.xaml",
+     "title_key": "menopausa",
+     "blocks": [
+      {
+       "k": "ref1TabelaUteroAdultoPosMenopausa"
+      },
+      {
+       "k": "inicio"
+      },
+      {
+       "img": "ic_action_home_icon.png",
+       "img_key": "sourceImagemIconHome"
+      },
+      {
+       "k": "headerTabela1UteroAdultoPosMenopausa"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL1C1"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL1C2"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL1C3"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL2C1"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL2C2"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL2C3"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL3C1"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL3C2"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL3C3"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL4C1"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL4C2"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL4C3"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL5C1"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL5C2"
+      },
+      {
+       "k": "tabela1UteroAdultoPosMenopausaL5C3"
+      },
+      {
+       "k": "astTabela1UteroAdultoPosMenopausa"
+      }
+     ],
+     "code_keys": [
+      "menopausa",
+      "voltar"
+     ],
+     "tables": [
+      {
+       "prefix": "tabela1UteroAdultoPosMenopausa",
+       "rows": [
+        [
+         "tabela1UteroAdultoPosMenopausaL1C1",
+         "tabela1UteroAdultoPosMenopausaL1C2",
+         "tabela1UteroAdultoPosMenopausaL1C3"
+        ],
+        [
+         "tabela1UteroAdultoPosMenopausaL2C1",
+         "tabela1UteroAdultoPosMenopausaL2C2",
+         "tabela1UteroAdultoPosMenopausaL2C3"
+        ],
+        [
+         "tabela1UteroAdultoPosMenopausaL3C1",
+         "tabela1UteroAdultoPosMenopausaL3C2",
+         "tabela1UteroAdultoPosMenopausaL3C3"
+        ],
+        [
+         "tabela1UteroAdultoPosMenopausaL4C1",
+         "tabela1UteroAdultoPosMenopausaL4C2",
+         "tabela1UteroAdultoPosMenopausaL4C3"
+        ],
+        [
+         "tabela1UteroAdultoPosMenopausaL5C1",
+         "tabela1UteroAdultoPosMenopausaL5C2",
+         "tabela1UteroAdultoPosMenopausaL5C3"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "page": "UteroAdultoDiu",
+     "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Utero\\UteroAdultoDiu.xaml",
+     "title_key": "diu",
+     "blocks": [
+      {
+       "k": "refDiu"
+      },
+      {
+       "k": "inicio"
+      },
+      {
+       "img": "ic_action_home_icon.png",
+       "img_key": "sourceImagemIconHome"
+      },
+      {
+       "k": "ultrassomPlanoCorteLongitudinal"
+      },
+      {
+       "img": "ultra_diu_fundo.jpg",
+       "img_key": "sourceImagemUteroAdultoDiu1Ultra"
+      },
+      {
+       "k": "legendaUteroAdultoDiu1Ultra"
+      },
+      {
+       "k": "legendaUteroAdultoDiu1UltraDistancia"
+      },
+      {
+       "img": "ultra_diu_parede_uterina.jpg",
+       "img_key": "sourceImagemUteroAdultoDiu2Ultra"
+      },
+      {
+       "k": "legendaUteroAdultoDiu2Ultra"
+      },
+      {
+       "k": "legendaUteroAdultoDiu2UltraDistancia"
+      },
+      {
+       "k": "legendaUteroAdultoDiu3UltraDistancia"
+      },
+      {
+       "k": "astUteroAdultoDiu"
+      },
+      {
+       "k": "astUteroAdultoDiuFormula"
+      }
+     ],
+     "code_keys": [
+      "diu",
+      "voltar"
+     ],
+     "tables": []
+    },
+    {
+     "page": "UteroAdultoVarizesPelvicas",
+     "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Utero\\UteroAdultoVarizesPelvicas.xaml",
+     "title_key": "varizesPelvicas",
+     "blocks": [
+      {
+       "k": "refTabelaVarizesPelvicas"
+      },
+      {
+       "k": "inicio"
+      },
+      {
+       "img": "ic_action_home_icon.png",
+       "img_key": "sourceImagemIconHome"
+      },
+      {
+       "k": "headerTabelaVarizesPelvicas"
+      },
+      {
+       "k": "tabelaVarizesPelvicasL1C1"
+      }
+     ],
+     "code_keys": [
+      "varizesPelvicas",
+      "voltar"
+     ],
+     "tables": [
+      {
+       "prefix": "tabelaVarizesPelvicas",
+       "rows": [
+        [
+         "tabelaVarizesPelvicasL1C1"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "page": "UteroAdultoExame",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Utero\\UteroAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoUteroAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoUteroAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaUteroAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "UteroAdultoTecnica",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Utero\\UteroAdultoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_longitudinal_suprapubico.jpg",
+     "img_key": "sourceImagemDorsalLongitudinalSuprapubico"
+    },
+    {
+     "k": "acessoSagitalMedianoSuprapubico"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_utero_adulto_longitudinal.jpg",
+     "img_key": "sourceImagemUteroAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaUteroAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaUltraDiametroLongitudinal"
+    },
+    {
+     "k": "legendaUltraDiametroAntero"
+    },
+    {
+     "k": "planoCorteAxial"
+    },
+    {
+     "img": "acesso_transverso_suprapubico.jpg",
+     "img_key": "sourceImagemDorsalTransversoSuprapubico"
+    },
+    {
+     "k": "acessoTransversoSuprapubico"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_utero_adulto_transverso.jpg",
+     "img_key": "sourceImagemUteroAdultoTransversoUltra"
+    },
+    {
+     "k": "legendaUteroAdultoTransversoUltra"
+    },
+    {
+     "k": "legendaUltraDiametroTransverso"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

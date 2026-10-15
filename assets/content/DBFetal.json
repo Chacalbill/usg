@@ -1,0 +1,151 @@
+{
+ "target": "DBFetal",
+ "tabs": [
+  {
+   "page": "DBFetalTabela",
+   "xaml": "Paginas\\Fetal\\DB\\DBFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaDB"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaDBL1C1"
+    },
+    {
+     "k": "tabelaDBL1C2"
+    },
+    {
+     "k": "tabelaDBL2C1"
+    },
+    {
+     "k": "tabelaDBL2C2"
+    },
+    {
+     "k": "tabelaDBL2C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaDB",
+     "rows": [
+      [
+       "tabelaDBL1C1",
+       "tabelaDBL1C2",
+       null
+      ],
+      [
+       "tabelaDBL2C1",
+       "tabelaDBL2C2",
+       "tabelaDBL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "DBFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\DB\\DBFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "refTabelaDB"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "dbSigla"
+    },
+    {
+     "k": "mm"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaDBL1C1"
+    },
+    {
+     "k": "tabelaDBL1C2"
+    },
+    {
+     "k": "tabelaDBL2C1"
+    },
+    {
+     "k": "tabelaDBL2C2"
+    },
+    {
+     "k": "tabelaDBL2C3"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteO",
+    "dbSigla",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaDB",
+     "rows": [
+      [
+       "tabelaDBL1C1",
+       "tabelaDBL1C2",
+       null
+      ],
+      [
+       "tabelaDBL2C1",
+       "tabelaDBL2C2",
+       "tabelaDBL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "DBFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\DB\\DBFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_db_fetal.jpg",
+     "img_key": "sourceImagemDBFetalUltra"
+    },
+    {
+     "k": "legendaUltraDB"
+    },
+    {
+     "k": "dbMedidaCorreta"
+    },
+    {
+     "k": "dbPontosMedida1"
+    },
+    {
+     "k": "dbPontosMedida2"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

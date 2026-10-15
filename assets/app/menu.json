@@ -1,0 +1,870 @@
+{
+ "order": [
+  "RecuperaListaPrimeiroTrimestre",
+  "RecuperaListaSegundoTerceiroTrimestre",
+  "RecuperaListaOssosLongos",
+  "RecuperaListaCabecaPescoco",
+  "RecuperaListaAbdomeSuperior",
+  "RecuperaListaRetroperitonio",
+  "RecuperaListaTratoUrinario",
+  "RecuperaListaTratoGenitalFeminino",
+  "RecuperaListaTratoGenitalMasculino",
+  "RecuperaListaTratoGastrintestinal",
+  "RecuperaListaPequenasPartes"
+ ],
+ "groups": [
+  {
+   "method": "RecuperaListaPrimeiroTrimestre",
+   "group_title_key": "primeiroTrimestre",
+   "items": [
+    {
+     "title_key": "sacoGestacional",
+     "noaccents_key": "NoAccentsSacoGestacional",
+     "icon": "ic_saco_gestacional_circle.png",
+     "target": "SacoGestacionalFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Gestational Sac (GS)",
+      "pt-BR": "Saco Gestacional (SG)",
+      "es": "Saco Gestacional"
+     }
+    },
+    {
+     "title_key": "vesiculaVitelinica",
+     "noaccents_key": "NoAccentsVesiculaVitelinica",
+     "icon": "ic_vesicula_vitelinica_circle.png",
+     "target": "VesiculaVitelinicaFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Yolk Sac (YS)",
+      "pt-BR": "Vesícula Vitelínica (VV)",
+      "es": "Vesícula Vitelina"
+     }
+    },
+    {
+     "title_key": "ccn",
+     "noaccents_key": "NoAccentsCCN",
+     "icon": "ic_ccn_circle.png",
+     "target": "CCNFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Crown-rump Length (CRL)",
+      "pt-BR": "Comprimento Cabeça-Nádega (CCN)",
+      "es": "Longitud Céfalo-caudal"
+     }
+    },
+    {
+     "title_key": "fce",
+     "noaccents_key": "NoAccentsFCE",
+     "icon": "ic_ehr_circle.png",
+     "target": "FCEFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Embryonic Heart Rate (EHR)",
+      "pt-BR": "Frequência Cardíaca Embrionária (FCE)",
+      "es": "Frecuencia Cardíaca Embrionaria"
+     }
+    },
+    {
+     "title_key": "tn",
+     "noaccents_key": "NoAccentsTN",
+     "icon": "ic_tn_circle.png",
+     "target": "TNFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Nuchal Translucency (NT)",
+      "pt-BR": "Translucência Nucal (TN)",
+      "es": "Translucencia Nucal"
+     }
+    }
+   ],
+   "group_title": {
+    "en": "First Trimester",
+    "pt-BR": "1° Trimestre",
+    "es": "Primer Trimestre"
+   }
+  },
+  {
+   "method": "RecuperaListaSegundoTerceiroTrimestre",
+   "group_title_key": "segundoTerceiroTrimestre",
+   "items": [
+    {
+     "title_key": "dbp",
+     "noaccents_key": "NoAccentsDBP",
+     "icon": "ic_bpd_circle.png",
+     "target": "DBPFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Biparietal Diameter and Head Circumference (BPD and HC)",
+      "pt-BR": "Diâmetro Biparietal e Circunferência Cefálica (DBP e CC)",
+      "es": "Diámetro Biparietal y Circunferencia Cefálica"
+     }
+    },
+    {
+     "title_key": "ca",
+     "noaccents_key": "NoAccentsCA",
+     "icon": "ic_ca_circle.png",
+     "target": "CAFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Abdominal Circumference (AC)",
+      "pt-BR": "Circunferência Abdominal (CA)",
+      "es": "Circunferencia Abdominal"
+     }
+    },
+    {
+     "title_key": "cf",
+     "noaccents_key": "NoAccentsCF",
+     "icon": "ic_fl_circle.png",
+     "target": "CFFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Femoral Length (FL)",
+      "pt-BR": "Comprimento do Fêmur (CF)",
+      "es": "Longitud Femoral"
+     }
+    },
+    {
+     "title_key": "ila",
+     "noaccents_key": "NoAccentsILA",
+     "icon": "ic_ila_circle.png",
+     "target": "ILAFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Amniotic Fluid Index (AFI)",
+      "pt-BR": "Índice de Líquido Amniótico (ILA)",
+      "es": "Índice de Líquido Amniótico"
+     }
+    },
+    {
+     "title_key": "peso",
+     "noaccents_key": "NoAccentsPeso",
+     "icon": "ic_peso_circle.png",
+     "target": "PesoFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Fetal Weight",
+      "pt-BR": "Peso Fetal",
+      "es": "Peso Fetal"
+     }
+    },
+    {
+     "title_key": "acm",
+     "noaccents_key": "NoAccentsACM",
+     "icon": "ic_acm_circle.png",
+     "target": "ACMFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Middle Cerebral Artery (MCA)",
+      "pt-BR": "Artéria Cerebral Média (ACM)",
+      "es": "Arteria Cerebral Media (ACM)"
+     }
+    },
+    {
+     "title_key": "au",
+     "noaccents_key": "NoAccentsAU",
+     "icon": "ic_au_circle.png",
+     "target": "AUFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Umbilical Artery (UA)",
+      "pt-BR": "Artéria Umbilical (AU)",
+      "es": "Arteria Umbilical (AU)"
+     }
+    }
+   ],
+   "group_title": {
+    "en": "Second and Third Trimester",
+    "pt-BR": "2° e 3° Trimestres",
+    "es": "Segundo y Tercer Trimestre"
+   }
+  },
+  {
+   "method": "RecuperaListaOssosLongos",
+   "group_title_key": "ossosLongos",
+   "items": [
+    {
+     "title_key": "umero",
+     "noaccents_key": "NoAccentsUmero",
+     "icon": "ic_umero_circle.png",
+     "target": "UmeroFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Humerus Length",
+      "pt-BR": "Comprimento do Úmero",
+      "es": "Longitud del Húmero"
+     }
+    },
+    {
+     "title_key": "radio",
+     "noaccents_key": "NoAccentsRadio",
+     "icon": "ic_radio_circle.png",
+     "target": "RadioFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Radius Length",
+      "pt-BR": "Comprimento do Rádio",
+      "es": "Longitud del Radio"
+     }
+    },
+    {
+     "title_key": "ulna",
+     "noaccents_key": "NoAccentsUlna",
+     "icon": "ic_ulna_circle.png",
+     "target": "UlnaFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Ulna Length",
+      "pt-BR": "Comprimento da Ulna",
+      "es": "Longitud del Cúbito"
+     }
+    },
+    {
+     "title_key": "tibia",
+     "noaccents_key": "NoAccentsTibia",
+     "icon": "ic_tibia_circle.png",
+     "target": "TibiaFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Tibia Length",
+      "pt-BR": "Comprimento da Tíbia",
+      "es": "Longitud de la Tibia"
+     }
+    },
+    {
+     "title_key": "fibula",
+     "noaccents_key": "NoAccentsFibula",
+     "icon": "ic_fibula_circle.png",
+     "target": "FibulaFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Fibula Length",
+      "pt-BR": "Comprimento da Fíbula",
+      "es": "Longitud del Peroné"
+     }
+    }
+   ],
+   "group_title": {
+    "en": "Long Bones",
+    "pt-BR": "Ossos Longos",
+    "es": "Huesos Largos"
+   }
+  },
+  {
+   "method": "RecuperaListaCabecaPescoco",
+   "group_title_key": "cabecaPescoco",
+   "items": [
+    {
+     "title_key": "vl",
+     "noaccents_key": "NoAccentsVL",
+     "icon": "ic_vl_circle.png",
+     "target": "VLFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Posterior Cerebral Ventricle Diameter (LV)",
+      "pt-BR": "Diâmetro dos Ventrículos Laterais (VL)",
+      "es": "Diámetro del Ventrículo Lateral"
+     }
+    },
+    {
+     "title_key": "dtc",
+     "noaccents_key": "NoAccentsDTC",
+     "icon": "ic_dtc_circle.png",
+     "target": "DTCFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Transcerebellar Diameter (TCD)",
+      "pt-BR": "Diâmetro Transcerebelar (DTC)",
+      "es": "Diámetro Transverso del Cerebelo"
+     }
+    },
+    {
+     "title_key": "db",
+     "noaccents_key": "NoAccentsDB",
+     "icon": "ic_db_circle.png",
+     "target": "DBFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Binocular Distance (BD)",
+      "pt-BR": "Distância Binocular (DB)",
+      "es": "Distancia Binocular"
+     }
+    },
+    {
+     "title_key": "on",
+     "noaccents_key": "NoAccentsON",
+     "icon": "ic_on_circle.png",
+     "target": "ONFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Nasal Bone (NB)",
+      "pt-BR": "Osso Nasal (ON)",
+      "es": "Hueso Nasal"
+     }
+    },
+    {
+     "title_key": "pn",
+     "noaccents_key": "NoAccentsPN",
+     "icon": "ic_pn_circle.png",
+     "target": "PNFetal",
+     "audience": "fetal",
+     "title": {
+      "en": "Nuchal Fold (NF)",
+      "pt-BR": "Prega Nucal (PN)",
+      "es": "Pliegue Nucal"
+     }
+    }
+   ],
+   "group_title": {
+    "en": "Head and Neck",
+    "pt-BR": "Cabeça e Pescoço",
+    "es": "Cabeza y Cuello"
+   }
+  },
+  {
+   "method": "RecuperaListaAbdomeSuperior",
+   "group_title_key": "abdomeSuperior",
+   "items": [
+    {
+     "title_key": "baco",
+     "noaccents_key": "NoAccentsBaco",
+     "icon": "ic_baco_circle.png",
+     "target": "BacoPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Spleen",
+      "pt-BR": "Baço",
+      "es": "Bazo"
+     }
+    },
+    {
+     "title_key": "figado",
+     "noaccents_key": "NoAccentsFigado",
+     "icon": "ic_figado_circle.png",
+     "target": "FigadoPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Liver",
+      "pt-BR": "Fígado",
+      "es": "Hígado"
+     }
+    },
+    {
+     "title_key": "pancreas",
+     "noaccents_key": "NoAccentsPancreas",
+     "icon": "ic_pancreas_circle.png",
+     "target": "PancreasPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Pancreas",
+      "pt-BR": "Pâncreas",
+      "es": "Páncreas"
+     }
+    },
+    {
+     "title_key": "piloro",
+     "noaccents_key": "NoAccentsPiloro",
+     "icon": "ic_piloro_circle.png",
+     "target": "PiloroPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Pylorus (hypertrophic stenosis)",
+      "pt-BR": "Piloro (estenose hipertrofica)",
+      "es": "Píloro (estenosis hipertrofica)"
+     }
+    },
+    {
+     "title_key": "suprarrenal",
+     "noaccents_key": "NoAccentsSuprarrenal",
+     "icon": "ic_adrenal_circle.png",
+     "target": "SuprarrenalPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Adrenal Gland",
+      "pt-BR": "Suprarrenal",
+      "es": "Glándula Suprarrenal"
+     }
+    },
+    {
+     "title_key": "tratoBiliar",
+     "noaccents_key": "NoAccentsTrato",
+     "icon": "ic_trato_biliar_circle.png",
+     "target": "TratoPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Billiary tract",
+      "pt-BR": "Trato Biliar",
+      "es": "Tracto Biliar"
+     }
+    },
+    {
+     "title_key": "veiaPorta",
+     "noaccents_key": "NoAccentsVeiaPorta",
+     "icon": "ic_vp_circle.png",
+     "target": "VeiaPortaPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Portal vein",
+      "pt-BR": "Veia Porta",
+      "es": "Vena Porta"
+     }
+    },
+    {
+     "title_key": "vesiculaBiliar",
+     "noaccents_key": "NoAccentsVb",
+     "icon": "ic_vb_circle.png",
+     "target": "VBTBPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Gallbladder",
+      "pt-BR": "Vesícula Biliar",
+      "es": "Vesícula Biliar"
+     }
+    },
+    {
+     "title_key": "baco",
+     "noaccents_key": "NoAccentsBaco",
+     "icon": "ic_baco_circle.png",
+     "target": "BacoAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Spleen",
+      "pt-BR": "Baço",
+      "es": "Bazo"
+     }
+    },
+    {
+     "title_key": "figado",
+     "noaccents_key": "NoAccentsFigado",
+     "icon": "ic_figado_circle.png",
+     "target": "FigadoAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Liver",
+      "pt-BR": "Fígado",
+      "es": "Hígado"
+     }
+    },
+    {
+     "title_key": "pancreas",
+     "noaccents_key": "NoAccentsPancreas",
+     "icon": "ic_pancreas_circle.png",
+     "target": "PancreasAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Pancreas",
+      "pt-BR": "Pâncreas",
+      "es": "Páncreas"
+     }
+    },
+    {
+     "title_key": "tratoBiliar",
+     "noaccents_key": "NoAccentsTrato",
+     "icon": "ic_trato_biliar_circle.png",
+     "target": "TratoAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Billiary tract",
+      "pt-BR": "Trato Biliar",
+      "es": "Tracto Biliar"
+     }
+    },
+    {
+     "title_key": "veiaPorta",
+     "noaccents_key": "NoAccentsVeiaPorta",
+     "icon": "ic_vp_circle.png",
+     "target": "VeiaPortaAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Portal vein",
+      "pt-BR": "Veia Porta",
+      "es": "Vena Porta"
+     }
+    },
+    {
+     "title_key": "vesiculaBiliar",
+     "noaccents_key": "NoAccentsVb",
+     "icon": "ic_vb_circle.png",
+     "target": "VBTBAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Gallbladder",
+      "pt-BR": "Vesícula Biliar",
+      "es": "Vesícula Biliar"
+     }
+    }
+   ],
+   "group_title": {
+    "en": "Upper abdomen",
+    "pt-BR": "Abdome superior",
+    "es": "Abdomen superior"
+   }
+  },
+  {
+   "method": "RecuperaListaRetroperitonio",
+   "group_title_key": "retroperitonio",
+   "items": [
+    {
+     "title_key": "aortaIliacas",
+     "noaccents_key": "NoAccentsAorta",
+     "icon": "ic_aorta_circle.png",
+     "target": "AortaIliacasAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Abdominal aorta and common iliac arteries",
+      "pt-BR": "Aorta e Ilíacas",
+      "es": "Aorta y Ilíacas"
+     }
+    },
+    {
+     "title_key": "vci",
+     "noaccents_key": "NoAccentsVci",
+     "icon": "ic_vci_circle.png",
+     "target": "VCIAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "IVC and hepatic veins",
+      "pt-BR": "VCI e veias hepáticas",
+      "es": "VCI y venas hepaticas"
+     }
+    }
+   ],
+   "group_title": {
+    "en": "Retroperitoneum",
+    "pt-BR": "Retroperitônio",
+    "es": "Retroperitoneo"
+   }
+  },
+  {
+   "method": "RecuperaListaTratoUrinario",
+   "group_title_key": "tratoUrinario",
+   "items": [
+    {
+     "title_key": "bexiga",
+     "noaccents_key": "NoAccentsBexiga",
+     "icon": "ic_bexiga_circle.png",
+     "target": "BexigaPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Bladder",
+      "pt-BR": "Bexiga",
+      "es": "Vejiga"
+     }
+    },
+    {
+     "title_key": "rim",
+     "noaccents_key": "NoAccentsRim",
+     "icon": "ic_rins_circle.png",
+     "target": "RimPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Kidney",
+      "pt-BR": "Rim",
+      "es": "Riñón"
+     }
+    },
+    {
+     "title_key": "bexiga",
+     "noaccents_key": "NoAccentsBexiga",
+     "icon": "ic_bexiga_circle.png",
+     "target": "BexigaAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Bladder",
+      "pt-BR": "Bexiga",
+      "es": "Vejiga"
+     }
+    },
+    {
+     "title_key": "rim",
+     "noaccents_key": "NoAccentsRim",
+     "icon": "ic_rins_circle.png",
+     "target": "RimAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Kidney",
+      "pt-BR": "Rim",
+      "es": "Riñón"
+     }
+    }
+   ],
+   "group_title": {
+    "en": "Urinary tract",
+    "pt-BR": "Trato Urinário",
+    "es": "Tracto Urinário"
+   }
+  },
+  {
+   "method": "RecuperaListaTratoGastrintestinal",
+   "group_title_key": "tratoGastrintestinal",
+   "items": [
+    {
+     "title_key": "alcasIntestinais",
+     "noaccents_key": "NoAccentsAlcas",
+     "icon": "ic_alcas_intestinais_circle.png",
+     "target": "AlcasIntestinaisPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Gastrointestinal tract wall",
+      "pt-BR": "Alças Intestinais",
+      "es": "Asas Intestinales"
+     }
+    },
+    {
+     "title_key": "apendice",
+     "noaccents_key": "NoAccentsApendice",
+     "icon": "ic_apendice_circle.png",
+     "target": "ApendicePediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Cecal appendix",
+      "pt-BR": "Apêndice Cecal",
+      "es": "Apéndice Cecal"
+     }
+    },
+    {
+     "title_key": "alcasIntestinais",
+     "noaccents_key": "NoAccentsAlcas",
+     "icon": "ic_alcas_intestinais_circle.png",
+     "target": "AlcasIntestinaisAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Gastrointestinal tract wall",
+      "pt-BR": "Alças Intestinais",
+      "es": "Asas Intestinales"
+     }
+    },
+    {
+     "title_key": "apendice",
+     "noaccents_key": "NoAccentsApendice",
+     "icon": "ic_apendice_circle.png",
+     "target": "ApendiceAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Cecal appendix",
+      "pt-BR": "Apêndice Cecal",
+      "es": "Apéndice Cecal"
+     }
+    }
+   ],
+   "group_title": {
+    "en": "Gastrointestinal tract",
+    "pt-BR": "Trato Gastrintestinal",
+    "es": "Tracto Gastrintestinal"
+   }
+  },
+  {
+   "method": "RecuperaListaPequenasPartes",
+   "group_title_key": "pequenasPartes",
+   "items": [
+    {
+     "title_key": "tireoide",
+     "noaccents_key": "NoAccentsTireoide",
+     "icon": "ic_tireoide_circle.png",
+     "target": "TireoidePediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Thyroid",
+      "pt-BR": "Tireóide",
+      "es": "Tiroides"
+     }
+    },
+    {
+     "title_key": "transfontanela",
+     "noaccents_key": "NoAccentsTransfontanela",
+     "icon": "ic_transfontanela_circle.png",
+     "target": "TransfontanelaPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Neonatal brain",
+      "pt-BR": "Transfontanela",
+      "es": "Transfontanelar"
+     }
+    },
+    {
+     "title_key": "paratireoide",
+     "noaccents_key": "NoAccentsParatireoide",
+     "icon": "ic_paratireoides_circle.png",
+     "target": "ParatireoideAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Parathyroid",
+      "pt-BR": "Paratireóides",
+      "es": "Paratiroides"
+     }
+    },
+    {
+     "title_key": "tireoide",
+     "noaccents_key": "NoAccentsTireoide",
+     "icon": "ic_tireoide_circle.png",
+     "target": "TireoideAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Thyroid",
+      "pt-BR": "Tireóide",
+      "es": "Tiroides"
+     }
+    },
+    {
+     "title_key": "Torax",
+     "noaccents_key": "NoAccentsTorax",
+     "icon": "ic_derrame_pleural_circle.png",
+     "target": "ToraxAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Pleural effusion",
+      "pt-BR": "Derrame Pleural",
+      "es": "Derrame Pleural"
+     }
+    }
+   ],
+   "group_title": {
+    "en": "Small Parts",
+    "pt-BR": "Pequenas Partes",
+    "es": "Pequeñas Partes"
+   }
+  },
+  {
+   "method": "RecuperaListaTratoGenitalFeminino",
+   "group_title_key": "feminino",
+   "group_title": {
+    "en": "Female",
+    "pt-BR": "Feminino",
+    "es": "Femenino"
+   },
+   "items": [
+    {
+     "title_key": "ovarios",
+     "noaccents_key": "NoAccentsOvario",
+     "icon": "ic_ovarios_circle.png",
+     "target": "OvariosPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Ovaries",
+      "pt-BR": "Ovários",
+      "es": "Ovarios"
+     }
+    },
+    {
+     "title_key": "utero",
+     "noaccents_key": "NoAccentsUtero",
+     "icon": "ic_utero_circle.png",
+     "target": "UteroPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Uterus",
+      "pt-BR": "Útero",
+      "es": "Útero"
+     }
+    },
+    {
+     "title_key": "endometrio",
+     "noaccents_key": "NoAccentsEndometrio",
+     "icon": "ic_endometrio_circle.png",
+     "target": "EndometrioAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Endometrium",
+      "pt-BR": "Endométrio",
+      "es": "Endometrio"
+     }
+    },
+    {
+     "title_key": "ovarios",
+     "noaccents_key": "NoAccentsOvario",
+     "icon": "ic_ovarios_circle.png",
+     "target": "OvariosAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Ovaries",
+      "pt-BR": "Ovários",
+      "es": "Ovarios"
+     }
+    },
+    {
+     "title_key": "utero",
+     "noaccents_key": "NoAccentsUtero",
+     "icon": "ic_utero_circle.png",
+     "target": "UteroAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Uterus",
+      "pt-BR": "Útero",
+      "es": "Útero"
+     }
+    }
+   ]
+  },
+  {
+   "method": "RecuperaListaTratoGenitalMasculino",
+   "group_title_key": "masculino",
+   "group_title": {
+    "en": "Male",
+    "pt-BR": "Masculino",
+    "es": "Masculino"
+   },
+   "items": [
+    {
+     "title_key": "testiculos",
+     "noaccents_key": "NoAccentsTesticulos",
+     "icon": "ic_testiculos_circle.png",
+     "target": "TesticulosPediatrico",
+     "audience": "pediatrico",
+     "title": {
+      "en": "Testes",
+      "pt-BR": "Testículos",
+      "es": "Testículos"
+     }
+    },
+    {
+     "title_key": "epididimos",
+     "noaccents_key": "NoAccentsEpididimos",
+     "icon": "ic_testiculos_circle.png",
+     "target": "EpididimosAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Epididymis",
+      "pt-BR": "Epidídimos",
+      "es": "Epidídimos"
+     }
+    },
+    {
+     "title_key": "prostata",
+     "noaccents_key": "NoAccentsProstata",
+     "icon": "ic_prostata_circle.png",
+     "target": "Prostata",
+     "audience": "geral",
+     "title": {
+      "en": "Prostate",
+      "pt-BR": "Próstata",
+      "es": "Próstata"
+     }
+    },
+    {
+     "title_key": "testiculos",
+     "noaccents_key": "NoAccentsTesticulos",
+     "icon": "ic_testiculos_circle.png",
+     "target": "TesticulosAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Testes",
+      "pt-BR": "Testículos",
+      "es": "Testículos"
+     }
+    },
+    {
+     "title_key": "varicocele",
+     "noaccents_key": "NoAccentsVaricocele",
+     "icon": "ic_testiculos_circle.png",
+     "target": "VaricoceleAdulto",
+     "audience": "adulto",
+     "title": {
+      "en": "Varicocele",
+      "pt-BR": "Varicocele",
+      "es": "Varicocele"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,333 @@
+{
+ "target": "PesoFetal",
+ "tabs": [
+  {
+   "page": "PesoFetalTabela",
+   "xaml": "Paginas\\Fetal\\Peso\\PesoFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "astTabelaPeso"
+    },
+    {
+     "k": "refTabelaPeso"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaPesoL12C1"
+    },
+    {
+     "k": "tabelaPesoL1C2"
+    },
+    {
+     "k": "tabelaPesoL2C2"
+    },
+    {
+     "k": "tabelaPesoL2C3"
+    },
+    {
+     "k": "tabelaPesoL2C4"
+    },
+    {
+     "k": "tabelaPesoL2C5"
+    },
+    {
+     "k": "tabelaPesoL2C6"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaPeso",
+     "rows": [
+      [
+       null,
+       "tabelaPesoL1C2",
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       "tabelaPesoL2C2",
+       "tabelaPesoL2C3",
+       "tabelaPesoL2C4",
+       "tabelaPesoL2C5",
+       "tabelaPesoL2C6"
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       "tabelaPesoL12C1",
+       null,
+       null,
+       null,
+       null,
+       null
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "PesoFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\Peso\\PesoFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaPeso"
+    },
+    {
+     "k": "refTabelaPeso"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idadeGestacional"
+    },
+    {
+     "k": "semanas"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaPesoL12C1"
+    },
+    {
+     "k": "tabelaPesoL1C2"
+    },
+    {
+     "k": "tabelaPesoL2C2"
+    },
+    {
+     "k": "tabelaPesoL2C3"
+    },
+    {
+     "k": "tabelaPesoL2C4"
+    },
+    {
+     "k": "tabelaPesoL2C5"
+    },
+    {
+     "k": "tabelaPesoL2C6"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteIG",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaPeso",
+     "rows": [
+      [
+       null,
+       "tabelaPesoL1C2",
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       "tabelaPesoL2C2",
+       "tabelaPesoL2C3",
+       "tabelaPesoL2C4",
+       "tabelaPesoL2C5",
+       "tabelaPesoL2C6"
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       "tabelaPesoL12C1",
+       null,
+       null,
+       null,
+       null,
+       null
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "PesoFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\Peso\\PesoFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "pontosChaves"
+    },
+    {
+     "k": "pesoPontosChave1"
+    },
+    {
+     "k": "pesoPontosChave2"
+    },
+    {
+     "k": "pesoPontosChave3"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

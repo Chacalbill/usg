@@ -1,0 +1,256 @@
+{
+ "target": "DBPFetal",
+ "tabs": [
+  {
+   "page": "DBPFetalTabela",
+   "xaml": "Paginas\\Fetal\\DBP\\DBPFetalTabela.xaml",
+   "title_key": "dbpSigla",
+   "blocks": [
+    {
+     "k": "astTabelaDBP1"
+    },
+    {
+     "k": "astTabelaDBP2"
+    },
+    {
+     "k": "refTabelaDBPCC1"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaDBPL1C1"
+    },
+    {
+     "k": "tabelaDBPL1C2"
+    },
+    {
+     "k": "tabelaDBPL1C3"
+    }
+   ],
+   "code_keys": [
+    "dbpSigla",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaDBP",
+     "rows": [
+      [
+       "tabelaDBPL1C1",
+       "tabelaDBPL1C2",
+       "tabelaDBPL1C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "CCFetalTabela",
+   "xaml": "Paginas\\Fetal\\CC\\CCFetalTabela.xaml",
+   "title_key": "ccSigla",
+   "blocks": [
+    {
+     "k": "astTabelaCC1"
+    },
+    {
+     "k": "astTabelaCC2"
+    },
+    {
+     "k": "refTabelaDBPCC1"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaCCL1C1"
+    },
+    {
+     "k": "tabelaCCL1C2"
+    },
+    {
+     "k": "tabelaCCL1C3"
+    }
+   ],
+   "code_keys": [
+    "ccSigla",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaCC",
+     "rows": [
+      [
+       "tabelaCCL1C1",
+       "tabelaCCL1C2",
+       "tabelaCCL1C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "DBPFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\DBP\\DBPFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaDBP1"
+    },
+    {
+     "k": "astTabelaDBP2"
+    },
+    {
+     "k": "refTabelaDBPCC1"
+    },
+    {
+     "k": "astTabelaCC1"
+    },
+    {
+     "k": "astTabelaCC2"
+    },
+    {
+     "k": "refTabelaDBPCC1"
+    },
+    {
+     "k": "dbpSigla"
+    },
+    {
+     "k": "mm"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaDBPL1C1"
+    },
+    {
+     "k": "tabelaDBPL1C2"
+    },
+    {
+     "k": "tabelaDBPL1C3"
+    },
+    {
+     "k": "ccSigla"
+    },
+    {
+     "k": "mm"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaCCL1C1"
+    },
+    {
+     "k": "tabelaCCL1C2"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteO",
+    "dbpSigla",
+    "ok",
+    "ccSigla"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaDBP",
+     "rows": [
+      [
+       "tabelaDBPL1C1",
+       "tabelaDBPL1C2",
+       "tabelaDBPL1C3"
+      ]
+     ]
+    },
+    {
+     "prefix": "tabelaCC",
+     "rows": [
+      [
+       "tabelaCCL1C1",
+       "tabelaCCL1C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "DBPFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\DBP\\DBPFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "pontosChaves"
+    },
+    {
+     "k": "dbpPontosChave1"
+    },
+    {
+     "k": "dbpPontosChave2"
+    },
+    {
+     "k": "dbpPontosChave3"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_bpd_cc_fetal.jpg",
+     "img_key": "sourceImagemDBPFetalUltra"
+    },
+    {
+     "k": "figura"
+    },
+    {
+     "img": "ilustracao_bdp_cc_fetal.jpg",
+     "img_key": "sourceImagemDBPFetalIlust"
+    },
+    {
+     "k": "dbpSigla"
+    },
+    {
+     "k": "ccSigla"
+    },
+    {
+     "k": "dbpMedidaCorreta"
+    },
+    {
+     "k": "dbpPontosMedida1"
+    },
+    {
+     "k": "dbpPontosMedida2"
+    },
+    {
+     "k": "dbpPontosMedida3"
+    },
+    {
+     "k": "dbpPontosMedida4"
+    },
+    {
+     "k": "dbpPontosMedida5"
+    },
+    {
+     "k": "dbpPontosMedida6"
+    },
+    {
+     "k": "dbpPontosMedida7"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

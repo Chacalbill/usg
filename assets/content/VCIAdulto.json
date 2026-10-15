@@ -1,0 +1,223 @@
+{
+ "target": "VCIAdulto",
+ "tabs": [
+  {
+   "page": "VCIAdultoTabela",
+   "xaml": "Paginas\\Medidas\\Retroperitonio\\VCI\\VCIAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabela2VCIAdulto"
+    },
+    {
+     "k": "headerTabela2VCIAdulto"
+    },
+    {
+     "k": "tabela2VCIAdultoL1C1"
+    },
+    {
+     "k": "tabela2VCIAdultoL1C2"
+    },
+    {
+     "k": "tabela2VCIAdultoL1C3"
+    },
+    {
+     "k": "tabela2VCIAdultoL2C1"
+    },
+    {
+     "k": "tabela2VCIAdultoL2C2"
+    },
+    {
+     "k": "tabela2VCIAdultoL2C3"
+    },
+    {
+     "k": "tabela2VCIAdultoL3C1"
+    },
+    {
+     "k": "tabela2VCIAdultoL3C2"
+    },
+    {
+     "k": "tabela2VCIAdultoL3C3"
+    },
+    {
+     "k": "tabela2VCIAdultoL4C1"
+    },
+    {
+     "k": "tabela2VCIAdultoL4C2"
+    },
+    {
+     "k": "tabela2VCIAdultoL4C3"
+    },
+    {
+     "k": "ast1Tabela2VCIAdulto"
+    },
+    {
+     "k": "ast2Tabela2VCIAdulto"
+    },
+    {
+     "k": "headerTabelaVCIAdulto"
+    },
+    {
+     "k": "tabelaVCIAdultoL3C1"
+    },
+    {
+     "k": "tabelaVCIAdultoL3C2"
+    },
+    {
+     "k": "ast1Tabela2VeiasHepaticasAdulto"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabela2VCIAdulto",
+     "rows": [
+      [
+       "tabela2VCIAdultoL1C1",
+       "tabela2VCIAdultoL1C2",
+       "tabela2VCIAdultoL1C3"
+      ],
+      [
+       "tabela2VCIAdultoL2C1",
+       "tabela2VCIAdultoL2C2",
+       "tabela2VCIAdultoL2C3"
+      ],
+      [
+       "tabela2VCIAdultoL3C1",
+       "tabela2VCIAdultoL3C2",
+       "tabela2VCIAdultoL3C3"
+      ],
+      [
+       "tabela2VCIAdultoL4C1",
+       "tabela2VCIAdultoL4C2",
+       "tabela2VCIAdultoL4C3"
+      ]
+     ]
+    },
+    {
+     "prefix": "tabelaVCIAdulto",
+     "rows": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       "tabelaVCIAdultoL3C1",
+       "tabelaVCIAdultoL3C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "VCIAdultoExame",
+   "xaml": "Paginas\\Medidas\\Retroperitonio\\VCI\\VCIAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoVCIAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoVCIAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaVCIAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "VCIAdultoTecnica",
+   "xaml": "Paginas\\Medidas\\Retroperitonio\\VCI\\VCIAdultoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_transverso_epigastro_vci.jpg",
+     "img_key": "sourceImagemDorsalTransversoEpigastroVCI"
+    },
+    {
+     "k": "acessoTransversoEpigastro"
+    },
+    {
+     "k": "textoVCIAdultoAcessoSagitalParamedianoDireitoEpi"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_vci_adulto.jpg",
+     "img_key": "sourceImagemVCIAdultoUltra"
+    },
+    {
+     "k": "legendaVCIAdultoUltra"
+    },
+    {
+     "k": "legendaVCIAdultoUltraDiametro2"
+    },
+    {
+     "k": "legendaVCIAdultoUltraDiametro3"
+    },
+    {
+     "k": "textoVCIAdultoUltra"
+    },
+    {
+     "k": "planoCorteObliquo"
+    },
+    {
+     "img": "acesso_subcostal_direito.jpg",
+     "img_key": "sourceImagemDorsalSubcostalDireito"
+    },
+    {
+     "k": "acessoSubcostalDireito"
+    },
+    {
+     "k": "textoVCIAdultoSubcostalDireito"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_veias_hepaticas_adulto.jpg",
+     "img_key": "sourceImagemVeiasHepaticasAdultoUltra"
+    },
+    {
+     "k": "legendaVeiasHepaticasAdultoUltra"
+    },
+    {
+     "k": "legendaVeiasHepaticasAdultoUltraDiametro"
+    },
+    {
+     "k": "textoVeiasHepaticasAdultoUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

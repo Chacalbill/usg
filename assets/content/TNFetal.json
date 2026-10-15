@@ -1,0 +1,172 @@
+{
+ "target": "TNFetal",
+ "tabs": [
+  {
+   "page": "TNFetalTabela",
+   "xaml": "Paginas\\Fetal\\TN\\TNFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaTN1"
+    },
+    {
+     "k": "refTabelaTN2"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaTNL1C1"
+    },
+    {
+     "k": "tabelaTNL1C2"
+    },
+    {
+     "k": "tabelaTNL2C1"
+    },
+    {
+     "k": "tabelaTNL2C2"
+    },
+    {
+     "k": "tabelaTNL2C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaTN",
+     "rows": [
+      [
+       "tabelaTNL1C1",
+       "tabelaTNL1C2",
+       null
+      ],
+      [
+       "tabelaTNL2C1",
+       "tabelaTNL2C2",
+       "tabelaTNL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "TNFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\TN\\TNFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "refTabelaTN1"
+    },
+    {
+     "k": "refTabelaTN2"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "ccnSigla"
+    },
+    {
+     "k": "mm"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaTNL1C1"
+    },
+    {
+     "k": "tabelaTNL1C2"
+    },
+    {
+     "k": "tabelaTNL2C1"
+    },
+    {
+     "k": "tabelaTNL2C2"
+    },
+    {
+     "k": "tabelaTNL2C3"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteO",
+    "ccnSigla",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaTN",
+     "rows": [
+      [
+       "tabelaTNL1C1",
+       "tabelaTNL1C2",
+       null
+      ],
+      [
+       "tabelaTNL2C1",
+       "tabelaTNL2C2",
+       "tabelaTNL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "TNFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\TN\\TNFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "pontosChaves"
+    },
+    {
+     "k": "tnPontosChave1"
+    },
+    {
+     "k": "tnPontosChave2"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_tn_fetal.jpg",
+     "img_key": "sourceImagemTNFetalUltra"
+    },
+    {
+     "k": "tnMedida"
+    },
+    {
+     "k": "tnPontosMedida2"
+    },
+    {
+     "k": "tnPontosMedida3"
+    },
+    {
+     "k": "tnPontosMedida4"
+    },
+    {
+     "k": "tnPontosMedida5"
+    },
+    {
+     "k": "tnPontosMedida6"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

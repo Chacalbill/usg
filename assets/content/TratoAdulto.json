@@ -1,0 +1,154 @@
+{
+ "target": "TratoAdulto",
+ "tabs": [
+  {
+   "page": "TratoAdultoTabela",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\TratoBiliar\\TratoAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabela1VBTBAdulto"
+    },
+    {
+     "k": "ref2Tabela1VBTBAdulto"
+    },
+    {
+     "k": "refTabela2VBTBAdulto"
+    },
+    {
+     "k": "headerTabelaMedidaAdultoTrato"
+    },
+    {
+     "k": "tabela1VBTBAdultoL4C1"
+    },
+    {
+     "k": "tabela1VBTBAdultoL4C2"
+    },
+    {
+     "k": "tabela1VBTBAdultoL5C1"
+    },
+    {
+     "k": "headerTabela2AdultoVBTB"
+    },
+    {
+     "k": "tabela2VBTBAdultoL1C1"
+    },
+    {
+     "k": "tabela2VBTBAdultoL2C1"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabela1VBTBAdulto",
+     "rows": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       "tabela1VBTBAdultoL4C1",
+       "tabela1VBTBAdultoL4C2"
+      ],
+      [
+       "tabela1VBTBAdultoL5C1",
+       null
+      ]
+     ]
+    },
+    {
+     "prefix": "tabela2VBTBAdulto",
+     "rows": [
+      [
+       "tabela2VBTBAdultoL1C1"
+      ],
+      [
+       "tabela2VBTBAdultoL2C1"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "TratoAdultoExame",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\TratoBiliar\\TratoAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoTratoAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoTratoAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaTratoAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "TratoAdultoTecnica",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\TratoBiliar\\TratoAdultoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_subcostal_obliquo_direito.jpg",
+     "img_key": "sourceImagemDorsalSubcostalObliquoDireito"
+    },
+    {
+     "k": "acessoIntercostalDireitoEstendido"
+    },
+    {
+     "k": "textoAcessoIntercostalDireitoEstendido"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "k": "legendaTratoAdultoDBCUltra"
+    },
+    {
+     "k": "legendaTratoAdultoDBCUltraCalibre"
+    },
+    {
+     "k": "legendaTratoAdultoDBCUltraCalibre2"
+    },
+    {
+     "k": "textoTratoAdultoDBCUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

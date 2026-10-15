@@ -1,0 +1,106 @@
+{
+ "target": "VeiaPortaPediatrico",
+ "tabs": [
+  {
+   "page": "VeiaPortaPediatricoTabela",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\VeiaPorta\\VeiaPortaPediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaVeiaPortaPediatrico"
+    },
+    {
+     "k": "headerTabelaVeiaPortaPediatricoMenino"
+    },
+    {
+     "k": "astTabelaVeiaPortaPediatrico"
+    },
+    {
+     "k": "ast2VeiaPortaPediatrico"
+    },
+    {
+     "k": "headerTabelaVeiaPortaPediatricoMenina"
+    },
+    {
+     "k": "astTabelaVeiaPortaPediatrico"
+    },
+    {
+     "k": "ast2VeiaPortaPediatrico"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "VeiaPortaPediatricoExame",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\VeiaPorta\\VeiaPortaPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoVeiaPortaPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoVeiaPortaPediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaVeiaPortaPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "VeiaPortaPediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\VeiaPorta\\VeiaPortaPediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_subcostal_obliquo_direito.jpg",
+     "img_key": "sourceImagemDorsalSubcostalObliquoDireito"
+    },
+    {
+     "k": "acessoIntercostalDireitoEstendido"
+    },
+    {
+     "k": "textoAcessoIntercostalDireitoEstendido"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_veia_porta_pediatrico.jpg",
+     "img_key": "sourceImagemVPPediatricoUltra"
+    },
+    {
+     "k": "legendaVPPediatricoUltra"
+    },
+    {
+     "k": "legendaVPPediatricoUltraDiametro"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

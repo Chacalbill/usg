@@ -1,0 +1,171 @@
+{
+ "target": "AortaIliacasAdulto",
+ "tabs": [
+  {
+   "page": "AortaIliacasAdultoTabela",
+   "xaml": "Paginas\\Medidas\\Retroperitonio\\AortaIliacas\\AortaIliacasAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaAortaIliacasAdulto"
+    },
+    {
+     "k": "headerTabela1AortaIliacasAdulto"
+    },
+    {
+     "k": "tabela1AortaIliacasAdultoL1C1"
+    },
+    {
+     "k": "tabela1AortaIliacasAdultoL1C2"
+    },
+    {
+     "k": "tabela1AortaIliacasAdultoL2C1"
+    },
+    {
+     "k": "tabela1AortaIliacasAdultoL2C2"
+    },
+    {
+     "k": "headerTabela2AortaIliacasAdulto"
+    },
+    {
+     "k": "tabela2AortaIliacasAdultoL1C1"
+    },
+    {
+     "k": "tabela2AortaIliacasAdultoL1C2"
+    },
+    {
+     "k": "tabela2AortaIliacasAdultoL2C1"
+    },
+    {
+     "k": "tabela2AortaIliacasAdultoL2C2"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabela2AortaIliacasAdultoL3C1"
+    },
+    {
+     "k": "tabela2AortaIliacasAdultoL3C2"
+    },
+    {
+     "k": "tabela2AortaIliacasAdultoL4C1"
+    },
+    {
+     "k": "tabela2AortaIliacasAdultoL4C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabela1AortaIliacasAdulto",
+     "rows": [
+      [
+       "tabela1AortaIliacasAdultoL1C1",
+       "tabela1AortaIliacasAdultoL1C2"
+      ],
+      [
+       "tabela1AortaIliacasAdultoL2C1",
+       "tabela1AortaIliacasAdultoL2C2"
+      ]
+     ]
+    },
+    {
+     "prefix": "tabela2AortaIliacasAdulto",
+     "rows": [
+      [
+       "tabela2AortaIliacasAdultoL1C1",
+       "tabela2AortaIliacasAdultoL1C2"
+      ],
+      [
+       "tabela2AortaIliacasAdultoL2C1",
+       "tabela2AortaIliacasAdultoL2C2"
+      ],
+      [
+       "tabela2AortaIliacasAdultoL3C1",
+       "tabela2AortaIliacasAdultoL3C2"
+      ],
+      [
+       "tabela2AortaIliacasAdultoL4C1",
+       "tabela2AortaIliacasAdultoL4C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "AortaIliacasAdultoExame",
+   "xaml": "Paginas\\Medidas\\Retroperitonio\\AortaIliacas\\AortaIliacasAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoAortaIliacas"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoAortaIliacas"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaAortaIliacas"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "AortaIliacasAdultoTecnica",
+   "xaml": "Paginas\\Medidas\\Retroperitonio\\AortaIliacas\\AortaIliacasAdultoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_longitudinal_mesogastro.jpg",
+     "img_key": "sourceImagemDorsalLongitudinalMesogastro"
+    },
+    {
+     "k": "acessoParamedianoEsquerdoMeso"
+    },
+    {
+     "k": "textoAcessoParamedianoEsquerdoMesoAortaAdulto"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_aorta_adulto.jpg",
+     "img_key": "sourceImagemAortaAdultoUltra"
+    },
+    {
+     "k": "legendaAortaAdultoUltra"
+    },
+    {
+     "k": "legendaAortaAdultoUltraDiametro"
+    },
+    {
+     "k": "textoAortaAdultoUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

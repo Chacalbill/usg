@@ -1,0 +1,170 @@
+{
+ "target": "FibulaFetal",
+ "tabs": [
+  {
+   "page": "FibulaFetalTabela",
+   "xaml": "Paginas\\Fetal\\Fibula\\FibulaFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "astTabelaFibula"
+    },
+    {
+     "k": "refTabelaFibula"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaFibulaL1C1"
+    },
+    {
+     "k": "tabelaFibulaL1C2"
+    },
+    {
+     "k": "tabelaFibulaL2C1"
+    },
+    {
+     "k": "tabelaFibulaL2C2"
+    },
+    {
+     "k": "tabelaFibulaL2C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaFibula",
+     "rows": [
+      [
+       "tabelaFibulaL1C1",
+       "tabelaFibulaL1C2",
+       null
+      ],
+      [
+       "tabelaFibulaL2C1",
+       "tabelaFibulaL2C2",
+       "tabelaFibulaL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "FibulaFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\Fibula\\FibulaFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaFibula"
+    },
+    {
+     "k": "refTabelaFibula"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idadeGestacional"
+    },
+    {
+     "k": "semanas"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaFibulaL1C1"
+    },
+    {
+     "k": "tabelaFibulaL1C2"
+    },
+    {
+     "k": "tabelaFibulaL2C1"
+    },
+    {
+     "k": "tabelaFibulaL2C2"
+    },
+    {
+     "k": "tabelaFibulaL2C3"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteIG",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaFibula",
+     "rows": [
+      [
+       "tabelaFibulaL1C1",
+       "tabelaFibulaL1C2",
+       null
+      ],
+      [
+       "tabelaFibulaL2C1",
+       "tabelaFibulaL2C2",
+       "tabelaFibulaL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "FibulaFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\Fibula\\FibulaFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "pontosChaves"
+    },
+    {
+     "k": "fibulaPontosChave1"
+    },
+    {
+     "k": "fibulaPontosChave2"
+    },
+    {
+     "k": "fibulaPontosChave3"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "k": "legendaUltraFibula"
+    },
+    {
+     "k": "fibulaMedidaCorreta"
+    },
+    {
+     "k": "fibulaPontosMedida1"
+    },
+    {
+     "k": "fibulaPontosMedida2"
+    },
+    {
+     "k": "fibulaPontosMedida3"
+    },
+    {
+     "k": "fibulaPontosMedida4"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "target": "BexigaPediatrico",
+ "tabs": [
+  {
+   "page": "BexigaPediatricoTabelaBVI",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Bexiga\\BexigaPediatricoTabelaBVI.xaml",
+   "title_key": "bexigaPediatricoBVI",
+   "blocks": [
+    {
+     "k": "refTabela1BexigaPediatrico"
+    },
+    {
+     "k": "medidas"
+    }
+   ],
+   "code_keys": [
+    "bexigaPediatricoBVI",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "BexigaPediatricoTabelaBVWI",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Bexiga\\BexigaPediatricoTabelaBVWI.xaml",
+   "title_key": "bexigaPediatricoBVWI",
+   "blocks": [
+    {
+     "k": "refTabela1BexigaPediatrico"
+    },
+    {
+     "k": "medidas"
+    }
+   ],
+   "code_keys": [
+    "bexigaPediatricoBVWI",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "BexigaPediatricoPrincipal",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Bexiga\\BexigaPediatricoPrincipal.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "refTabela1BexigaPediatrico"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "indiceVolumetrico"
+    },
+    {
+     "k": "idade"
+    },
+    {
+     "k": "anos"
+    },
+    {
+     "k": "calcular"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "voltar",
+    "bexigaPediatricoBVI",
+    "bexigaPediatricoBVWI",
+    "camposObrigatorios",
+    "digiteIdade",
+    "ok",
+    "medidas",
+    "dadosForaAlcance"
+   ],
+   "tables": []
+  },
+  {
+   "page": "BexigaPediatricoExame",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Bexiga\\BexigaPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoBexigaPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoBexigaPediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaBexigaPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "BexigaPediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\TratoUrinario\\Bexiga\\BexigaPediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinalBVI"
+    },
+    {
+     "img": "acesso_longitudinal_suprapubico.jpg",
+     "img_key": "sourceImagemDorsalLongitudinalSuprapubico"
+    },
+    {
+     "k": "acessoSagitalMedianoSuprapubico"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_bexiga_pediatrico_longitudinal.jpg",
+     "img_key": "sourceImagemBexigaPediatricoLongitudinalUltra"
+    },
+    {
+     "k": "legendaBexigaPediatricoLongitudinalUltra"
+    },
+    {
+     "k": "legendaComprimentoC"
+    },
+    {
+     "k": "planoCorteTransversalBVI"
+    },
+    {
+     "img": "acesso_transverso_suprapubico.jpg",
+     "img_key": "sourceImagemDorsalTransversoSuprapubico"
+    },
+    {
+     "k": "acessoTransversoSuprapubico"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_bexiga_pediatrico_transversal.jpg",
+     "img_key": "sourceImagemBexigaPediatricoTransversalUltra"
+    },
+    {
+     "k": "legendaBexigaPediatricoTransversalUltra"
+    },
+    {
+     "k": "legendaProfundidadeP"
+    },
+    {
+     "k": "legendaLarguraL"
+    },
+    {
+     "k": "textoBexigaPediatricoBVITransversal"
+    },
+    {
+     "k": "planoCorteTransversalBVWI"
+    },
+    {
+     "img": "acesso_transverso_suprapubico.jpg",
+     "img_key": "sourceImagemDorsalTransversoSuprapubico"
+    },
+    {
+     "k": "acessoTransversoSuprapubico"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_bexiga_pediatrico_vazia.jpg",
+     "img_key": "sourceImagemBexigaPediatricoVaziaUltra"
+    },
+    {
+     "k": "legendaBexigaPediatricoVaziaUltra"
+    },
+    {
+     "k": "legendaAnterolateral"
+    },
+    {
+     "k": "legendaLateral"
+    },
+    {
+     "k": "legendaPosterolateral"
+    },
+    {
+     "k": "textoBexigaPediatricoBVWITransversal"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "page": "SocialPagina",
+ "xaml": "Paginas\\SocialPagina.xaml",
+ "title_key": "social",
+ "blocks": [
+  {
+   "k": "aplicativo"
+  },
+  {
+   "k": "avaliarApp"
+  },
+  {
+   "img": "ic_icon_next.png",
+   "img_key": "sourceImagemIconNext"
+  },
+  {
+   "k": "compartilharApp"
+  },
+  {
+   "img": "ic_icon_next.png",
+   "img_key": "sourceImagemIconNext"
+  },
+  {
+   "k": "feedback"
+  },
+  {
+   "img": "ic_icon_next.png",
+   "img_key": "sourceImagemIconNext"
+  },
+  {
+   "k": "site"
+  },
+  {
+   "k": "salusSonography"
+  },
+  {
+   "img": "ic_icon_next.png",
+   "img_key": "sourceImagemIconNext"
+  },
+  {
+   "k": "midiasSociais"
+  },
+  {
+   "k": "facebook"
+  },
+  {
+   "img": "ic_icon_next.png",
+   "img_key": "sourceImagemIconNext"
+  },
+  {
+   "k": "instagram"
+  },
+  {
+   "img": "ic_icon_next.png",
+   "img_key": "sourceImagemIconNext"
+  }
+ ],
+ "code_keys": [
+  "inicio",
+  "social",
+  "voltar",
+  "linkSite",
+  "linkFace",
+  "linkInst",
+  "linkPlayStore",
+  "linkAppStore",
+  "shareApp",
+  "shareAppTexto"
+ ],
+ "tables": []
+}

@@ -1,0 +1,158 @@
+{
+ "target": "UmeroFetal",
+ "tabs": [
+  {
+   "page": "UmeroFetalTabela",
+   "xaml": "Paginas\\Fetal\\Umero\\UmeroFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "astTabelaUmero"
+    },
+    {
+     "k": "refTabelaUmero"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaUmeroL1C1"
+    },
+    {
+     "k": "tabelaUmeroL1C2"
+    },
+    {
+     "k": "tabelaUmeroL2C1"
+    },
+    {
+     "k": "tabelaUmeroL2C2"
+    },
+    {
+     "k": "tabelaUmeroL2C3"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaUmero",
+     "rows": [
+      [
+       "tabelaUmeroL1C1",
+       "tabelaUmeroL1C2",
+       null
+      ],
+      [
+       "tabelaUmeroL2C1",
+       "tabelaUmeroL2C2",
+       "tabelaUmeroL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "UmeroFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\Umero\\UmeroFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaUmero"
+    },
+    {
+     "k": "refTabelaUmero"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idadeGestacional"
+    },
+    {
+     "k": "semanas"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaUmeroL1C1"
+    },
+    {
+     "k": "tabelaUmeroL1C2"
+    },
+    {
+     "k": "tabelaUmeroL2C1"
+    },
+    {
+     "k": "tabelaUmeroL2C2"
+    },
+    {
+     "k": "tabelaUmeroL2C3"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteIG",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaUmero",
+     "rows": [
+      [
+       "tabelaUmeroL1C1",
+       "tabelaUmeroL1C2",
+       null
+      ],
+      [
+       "tabelaUmeroL2C1",
+       "tabelaUmeroL2C2",
+       "tabelaUmeroL2C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "UmeroFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\Umero\\UmeroFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "pontosChaves"
+    },
+    {
+     "k": "umeroPontosChave1"
+    },
+    {
+     "k": "umeroPontosChave2"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "k": "legendaUltraUmero"
+    },
+    {
+     "k": "umeroMedidaCorreta"
+    },
+    {
+     "k": "umeroPontosMedida1"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

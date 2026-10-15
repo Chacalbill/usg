@@ -1,0 +1,156 @@
+{
+ "target": "ApendiceAdulto",
+ "tabs": [
+  {
+   "page": "ApendiceAdultoTabela",
+   "xaml": "Paginas\\Medidas\\TratoGastrintestinal\\Apendice\\ApendiceAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "referenciaApendiceAdulto1"
+    },
+    {
+     "k": "referenciaApendiceAdulto2"
+    },
+    {
+     "k": "headerTabelaApendice"
+    },
+    {
+     "k": "tabelaApendiceL1C1"
+    },
+    {
+     "k": "tabelaApendiceL2C1"
+    },
+    {
+     "k": "tabelaApendiceL3C1"
+    },
+    {
+     "k": "tabelaApendiceL4C1"
+    },
+    {
+     "k": "astApendiceTabela1"
+    },
+    {
+     "k": "astApendiceTabela2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaApendice",
+     "rows": [
+      [
+       "tabelaApendiceL1C1"
+      ],
+      [
+       "tabelaApendiceL2C1"
+      ],
+      [
+       "tabelaApendiceL3C1"
+      ],
+      [
+       "tabelaApendiceL4C1"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "ApendiceAdultoExame",
+   "xaml": "Paginas\\Medidas\\TratoGastrintestinal\\Apendice\\ApendiceAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoApendiceAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoApendice"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaApendiceAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "ApendiceAdultoPlanosCorte",
+   "xaml": "Paginas\\Medidas\\TratoGastrintestinal\\Apendice\\ApendiceAdultoPlanosCorte.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "referenciaApendiceAdulto1"
+    },
+    {
+     "k": "referenciaApendiceAdulto2"
+    },
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "apendice_longitudinal.jpg",
+     "img_key": "sourceImagemApendiceLongitudinalGrafico"
+    },
+    {
+     "k": "acessoObliquoMcBurney"
+    },
+    {
+     "k": "ultrassomPlanoCorteLongitudinal"
+    },
+    {
+     "img": "ultra_apendice_adulto_longitudinal.jpg",
+     "img_key": "sourceImagemApendiceAdultoUltraLongitudinal"
+    },
+    {
+     "k": "legendaApendiceAdultoUltraLongitudinal"
+    },
+    {
+     "k": "legendaMedidaApendiceAdultoLongitudinalDiametro"
+    },
+    {
+     "k": "planoCorteAxial"
+    },
+    {
+     "img": "apendice_transverso.jpg",
+     "img_key": "sourceImagemApendiceTransversoGrafico"
+    },
+    {
+     "k": "acessoObliquoMcBurney90"
+    },
+    {
+     "k": "ultrassomPlanoCorteAxial"
+    },
+    {
+     "img": "ultra_apendice_adulto_axial.jpg",
+     "img_key": "sourceImagemApendiceAdultoUltraAxial"
+    },
+    {
+     "k": "legendaApendiceAdultoUltraAxial"
+    },
+    {
+     "k": "legendaMedidaApendiceAdultoAxialEspessura"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

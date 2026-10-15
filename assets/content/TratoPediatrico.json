@@ -1,0 +1,209 @@
+{
+ "target": "TratoPediatrico",
+ "tabs": [
+  {
+   "page": "TratoPediatricoTabela",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\TratoBiliar\\TratoPediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaTratoPediatrico1"
+    },
+    {
+     "k": "headerTabelaTratoPediatrico1"
+    },
+    {
+     "k": "tabela1TratoPediatricoL1C1"
+    },
+    {
+     "k": "tabela1TratoPediatricoL2C1"
+    },
+    {
+     "k": "tabela1TratoPediatricoL2C2"
+    },
+    {
+     "k": "tabela1TratoPediatricoL2C3"
+    },
+    {
+     "k": "tabela1TratoPediatricoL3C1"
+    },
+    {
+     "k": "tabela1TratoPediatricoL3C2"
+    },
+    {
+     "k": "tabela1TratoPediatricoL3C3"
+    },
+    {
+     "k": "tabela1TratoPediatricoL4C1"
+    },
+    {
+     "k": "tabela1TratoPediatricoL4C2"
+    },
+    {
+     "k": "tabela1TratoPediatricoL4C3"
+    },
+    {
+     "k": "tabela1TratoPediatricoL5C1"
+    },
+    {
+     "k": "tabela1TratoPediatricoL5C2"
+    },
+    {
+     "k": "tabela1TratoPediatricoL5C3"
+    },
+    {
+     "k": "tabela1TratoPediatricoL6C1"
+    },
+    {
+     "k": "tabela1TratoPediatricoL6C2"
+    },
+    {
+     "k": "tabela1TratoPediatricoL6C3"
+    },
+    {
+     "k": "tabela1TratoPediatricoL7C1"
+    },
+    {
+     "k": "tabela1TratoPediatricoL7C2"
+    },
+    {
+     "k": "tabela1TratoPediatricoL7C3"
+    },
+    {
+     "k": "headerTabelaTratoPediatrico2"
+    },
+    {
+     "k": "tabela2TratoPediatricoL1C1"
+    },
+    {
+     "k": "tabela2TratoPediatricoL1C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabela1TratoPediatrico",
+     "rows": [
+      [
+       "tabela1TratoPediatricoL1C1",
+       null,
+       null
+      ],
+      [
+       "tabela1TratoPediatricoL2C1",
+       "tabela1TratoPediatricoL2C2",
+       "tabela1TratoPediatricoL2C3"
+      ],
+      [
+       "tabela1TratoPediatricoL3C1",
+       "tabela1TratoPediatricoL3C2",
+       "tabela1TratoPediatricoL3C3"
+      ],
+      [
+       "tabela1TratoPediatricoL4C1",
+       "tabela1TratoPediatricoL4C2",
+       "tabela1TratoPediatricoL4C3"
+      ],
+      [
+       "tabela1TratoPediatricoL5C1",
+       "tabela1TratoPediatricoL5C2",
+       "tabela1TratoPediatricoL5C3"
+      ],
+      [
+       "tabela1TratoPediatricoL6C1",
+       "tabela1TratoPediatricoL6C2",
+       "tabela1TratoPediatricoL6C3"
+      ],
+      [
+       "tabela1TratoPediatricoL7C1",
+       "tabela1TratoPediatricoL7C2",
+       "tabela1TratoPediatricoL7C3"
+      ]
+     ]
+    },
+    {
+     "prefix": "tabela2TratoPediatrico",
+     "rows": [
+      [
+       "tabela2TratoPediatricoL1C1",
+       "tabela2TratoPediatricoL1C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "TratoPediatricoExame",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\TratoBiliar\\TratoPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoTratoPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoTratoPediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaTratoPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "TratoPediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\TratoBiliar\\TratoPediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_subcostal_obliquo_direito.jpg",
+     "img_key": "sourceImagemDorsalSubcostalObliquoDireito"
+    },
+    {
+     "k": "acessoIntercostalDireitoEstendido"
+    },
+    {
+     "k": "textoAcessoIntercostalDireitoEstendido"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "k": "legendaTratoPediatricoDHCUltra"
+    },
+    {
+     "k": "legendaTratoPediatricoDHCUltraCalibre"
+    },
+    {
+     "k": "legendaTratoAdultoDBCUltraCalibre2"
+    },
+    {
+     "k": "textoTratoPediatricoDHCUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

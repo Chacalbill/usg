@@ -1,0 +1,133 @@
+{
+ "target": "BacoPediatrico",
+ "tabs": [
+  {
+   "page": "BacoPediatricoTabela",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Baco\\BacoPediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaBacoPediatrico"
+    },
+    {
+     "k": "tabelaPrincipalBacoPediatricoRosenberg"
+    },
+    {
+     "k": "astTabelaBacoPediatrico"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "BacoPediatricoPrincipal",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Baco\\BacoPediatricoPrincipal.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "refTabelaBacoPediatrico"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idade"
+    },
+    {
+     "k": "sexo"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "astTabelaBacoPediatrico"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "voltar",
+    "anos",
+    "meses",
+    "feminino",
+    "masculino",
+    "camposObrigatorios",
+    "digiteIdade",
+    "ok",
+    "tabelaPrincipalBacoPediatricoRosenberg",
+    "dadosForaAlcance"
+   ],
+   "tables": []
+  },
+  {
+   "page": "BacoPediatricoExame",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Baco\\BacoPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoBacoPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoBacoPediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaBacoPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "BacoPediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Baco\\BacoPediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteCoronal"
+    },
+    {
+     "img": "acesso_intercostal_flanco_esquerdo.jpg",
+     "img_key": "sourceImagemLateralIntercostalFlancoEsquerdo"
+    },
+    {
+     "k": "acessoIntercostal"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_baco_pediatrico.jpg",
+     "img_key": "sourceImagemBacoPediatricoUltra"
+    },
+    {
+     "k": "legendaBacoAdultoLongitudinalUltra"
+    },
+    {
+     "k": "eixoLongitudinal"
+    },
+    {
+     "k": "textoBacoAdultoLongitudinalUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

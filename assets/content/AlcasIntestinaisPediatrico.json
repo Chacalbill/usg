@@ -1,0 +1,91 @@
+{
+ "target": "AlcasIntestinaisPediatrico",
+ "tabs": [
+  {
+   "page": "AlcasIntestinaisPediatricoTabela",
+   "xaml": "Paginas\\Medidas\\TratoGastrintestinal\\AlcasIntestinais\\AlcasIntestinaisPediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaAlcasAdulto1"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_alcas_medidas.jpg",
+     "img_key": "sourceImagemAlcasAdultoUltraMedidas"
+    },
+    {
+     "k": "legendaAlcasAdultoUltraMedidas"
+    },
+    {
+     "k": "medidas"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "AlcasIntestinaisPediatricoExame",
+   "xaml": "Paginas\\Medidas\\TratoGastrintestinal\\AlcasIntestinais\\AlcasIntestinaisPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoAlcasIntestinaisPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoAlcasIntestinaisAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaAlcasIntestinaisPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "AlcasIntestinaisAdultoPadrao",
+   "xaml": "Paginas\\Medidas\\TratoGastrintestinal\\AlcasIntestinais\\AlcasIntestinaisAdultoPadrao.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_alcas_setas.jpg",
+     "img_key": "sourceImagemAlcasAdultoUltraSetas"
+    },
+    {
+     "k": "legendaAlcasAdultoUltraSetas"
+    },
+    {
+     "k": "textoAlcasAdultoUltraSetas1"
+    },
+    {
+     "k": "textoAlcasAdultoUltraSetas2"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "target": "FigadoPediatrico",
+ "tabs": [
+  {
+   "page": "FigadoPediatricoTabela",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Figado\\FigadoPediatricoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaFigadoPediatrico"
+    },
+    {
+     "k": "headerTabelaFigadoPediatrico"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "FigadoPediatricoPrincipal",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Figado\\FigadoPediatricoPrincipal.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "refTabelaFigadoPediatrico"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idade"
+    },
+    {
+     "k": "calcular"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "voltar",
+    "anos",
+    "meses",
+    "camposObrigatorios",
+    "digiteIdade",
+    "ok",
+    "headerTabelaFigadoPediatrico",
+    "dadosForaAlcance"
+   ],
+   "tables": []
+  },
+  {
+   "page": "FigadoPediatricoExame",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Figado\\FigadoPediatricoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoFigadoPediatrico"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoFigadoPediatrico"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaFigadoPediatrico"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "FigadoPediatricoTecnica",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\Figado\\FigadoPediatricoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_subcostal_parassagital_direito.jpg",
+     "img_key": "sourceImagemDorsalSubcostalParassagitalDireito"
+    },
+    {
+     "k": "acessoSubcostalParassagitalDireito"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_figado_pediatrico_ld.jpg",
+     "img_key": "sourceImagemFigadoPediatricoLDUltra"
+    },
+    {
+     "k": "legendaFigadoAdultoLDUltra"
+    },
+    {
+     "k": "legendaFigadoAdultoLDUltraDiametro"
+    },
+    {
+     "k": "textoFigadoAdultoLDUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

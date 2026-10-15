@@ -1,0 +1,155 @@
+{
+ "target": "VesiculaVitelinicaFetal",
+ "tabs": [
+  {
+   "page": "VesiculaVitelinicaFetalTabela",
+   "xaml": "Paginas\\Fetal\\VesiculaVitelinica\\VesiculaVitelinicaFetalTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "astTabelaVV0"
+    },
+    {
+     "k": "refTabelaVV"
+    },
+    {
+     "k": "headerTabelaVV"
+    },
+    {
+     "k": "tabelaVVL1C1"
+    },
+    {
+     "k": "tabelaVVL1C2"
+    },
+    {
+     "k": "tabelaVVL1C3"
+    },
+    {
+     "k": "astTabelaVV"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaVV",
+     "rows": [
+      [
+       "tabelaVVL1C1",
+       "tabelaVVL1C2",
+       "tabelaVVL1C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "VesiculaVitelinicaFetalCalculadora",
+   "xaml": "Paginas\\Fetal\\VesiculaVitelinica\\VesiculaVitelinicaFetalCalculadora.xaml",
+   "title_key": "calcularMedidas",
+   "blocks": [
+    {
+     "k": "astTabelaVV0"
+    },
+    {
+     "k": "refTabelaVV"
+    },
+    {
+     "k": "calcularMedidas"
+    },
+    {
+     "k": "idadeGestacional"
+    },
+    {
+     "k": "semanas"
+    },
+    {
+     "k": "dias"
+    },
+    {
+     "k": "calcular"
+    },
+    {
+     "k": "headerTabelaVV"
+    },
+    {
+     "k": "tabelaVVL1C1"
+    },
+    {
+     "k": "tabelaVVL1C2"
+    },
+    {
+     "k": "tabelaVVL1C3"
+    },
+    {
+     "k": "astTabelaVV"
+    }
+   ],
+   "code_keys": [
+    "calcularMedidas",
+    "erro",
+    "fechar",
+    "camposObrigatorios",
+    "digiteIG",
+    "ok"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaVV",
+     "rows": [
+      [
+       "tabelaVVL1C1",
+       "tabelaVVL1C2",
+       "tabelaVVL1C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "VesiculaVitelinicaFetalExameTecnica",
+   "xaml": "Paginas\\Fetal\\VesiculaVitelinica\\VesiculaVitelinicaFetalExameTecnica.xaml",
+   "title_key": "exameTecnica",
+   "blocks": [
+    {
+     "k": "pontosChaves"
+    },
+    {
+     "k": "vesiculaVitelinicaPontosChave1"
+    },
+    {
+     "k": "vesiculaVitelinicaPontosChave2"
+    },
+    {
+     "k": "vesiculaVitelinicaPontosChave3"
+    },
+    {
+     "k": "vesiculaVitelinicaPontosChave4"
+    },
+    {
+     "k": "vesiculaVitelinicaPontosChave5"
+    },
+    {
+     "k": "vesiculaVitelinicaPontosChave6"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_vesicula_vitelinica.jpg",
+     "img_key": "sourceImagemVesiculaVitelinicaFetalUltra"
+    },
+    {
+     "k": "legendaVesiculaVitelinicaUltra"
+    }
+   ],
+   "code_keys": [
+    "exameTecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

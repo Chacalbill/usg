@@ -1,0 +1,49 @@
+{
+ "page": "PreferenciasPagina",
+ "xaml": "Paginas\\PreferenciasPagina.xaml",
+ "title_key": "Configuracoes",
+ "blocks": [
+  {
+   "k": "padrao"
+  },
+  {
+   "k": "idiomaApp"
+  },
+  {
+   "k": "idioma"
+  },
+  {
+   "k": "termosCondicoes"
+  },
+  {
+   "k": "termos"
+  },
+  {
+   "img": "ic_icon_next.png",
+   "img_key": "sourceImagemIconNext"
+  },
+  {
+   "k": "copyright"
+  },
+  {
+   "img": "ic_icon_next.png",
+   "img_key": "sourceImagemIconNext"
+  },
+  {
+   "k": "sobreTexto"
+  },
+  {
+   "k": "Salvar"
+  }
+ ],
+ "code_keys": [
+  "inicio",
+  "Configuracoes",
+  "voltar",
+  "portugues",
+  "ingles",
+  "espanhol",
+  "padrao"
+ ],
+ "tables": []
+}

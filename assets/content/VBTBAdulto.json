@@ -1,0 +1,187 @@
+{
+ "target": "VBTBAdulto",
+ "tabs": [
+  {
+   "page": "VBTBAdultoTabela",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\VB\\VBTBAdultoTabela.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "referenciaTabelaVBAdulto"
+    },
+    {
+     "k": "headerTabela1AdultoVBTB"
+    },
+    {
+     "k": "tabela1VBTBAdultoL1C1"
+    },
+    {
+     "k": "tabela1VBTBAdultoL1C2"
+    },
+    {
+     "k": "tabela1VBTBAdultoL2C1"
+    },
+    {
+     "k": "tabela1VBTBAdultoL2C2"
+    },
+    {
+     "k": "tabela1VBTBAdultoL3C1"
+    },
+    {
+     "k": "tabela1VBTBAdultoL3C2"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabela1VBTBAdulto",
+     "rows": [
+      [
+       "tabela1VBTBAdultoL1C1",
+       "tabela1VBTBAdultoL1C2"
+      ],
+      [
+       "tabela1VBTBAdultoL2C1",
+       "tabela1VBTBAdultoL2C2"
+      ],
+      [
+       "tabela1VBTBAdultoL3C1",
+       "tabela1VBTBAdultoL3C2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "VBTBAdultoExame",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\VB\\VBTBAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoVBTBAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoVBTBAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaVBAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  },
+  {
+   "page": "VBAdultoTecnica",
+   "xaml": "Paginas\\Medidas\\AbdomeSuperior\\VB\\VBAdultoTecnica.xaml",
+   "title_key": "tecnica",
+   "blocks": [
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_subcostal_obliquo_direito.jpg",
+     "img_key": "sourceImagemDorsalSubcostalObliquoDireito"
+    },
+    {
+     "k": "acessoIntercostalDireitoEstendido"
+    },
+    {
+     "k": "textoAcessoIntercostalDireitoEstendido"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_vb_adulto_longitudinal.jpg",
+     "img_key": "sourceImagemVBAdultoLongitudinalUltra"
+    },
+    {
+     "k": "legendaVBAdultoLongitudinalUltra"
+    },
+    {
+     "k": "eixoLongitudinal"
+    },
+    {
+     "k": "planoCorteTransversal"
+    },
+    {
+     "img": "acesso_subcostal_obliquo_direito_rotacao90.jpg",
+     "img_key": "sourceImagemDorsalSubcostalObliquoDireitoRotacao90"
+    },
+    {
+     "k": "acessoSubcostalObliDireitoRot90"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_vb_adulto_axial.jpg",
+     "img_key": "sourceImagemVBAdultoAxialUltra"
+    },
+    {
+     "k": "legendaVBAdultoAxialUltra"
+    },
+    {
+     "k": "eixoTransversal"
+    },
+    {
+     "k": "planoCorteLongitudinal"
+    },
+    {
+     "img": "acesso_intercostal_direito.jpg",
+     "img_key": "sourceImagemDorsalIntercostalDireito"
+    },
+    {
+     "k": "acessoIntercostalDireitoLegenda"
+    },
+    {
+     "k": "textoAcessoIntercostalDireitoVBAdulto"
+    },
+    {
+     "k": "ultrassom"
+    },
+    {
+     "img": "ultra_vb_adulto_intercostal.jpg",
+     "img_key": "sourceImagemVBAdultoIntercostalUltra"
+    },
+    {
+     "k": "legendaVBAdultoIntercostalUltra"
+    },
+    {
+     "img": "ultra_vb_adulto_parede_zoom.jpg",
+     "img_key": "sourceImagemVBAdultoParedeZoomUltra"
+    },
+    {
+     "k": "legendaVBAdultoParedeZoomUltra"
+    },
+    {
+     "img": "ultra_vb_adulto_parede_linear.jpg",
+     "img_key": "sourceImagemVBAdultoParedeLinearUltra"
+    },
+    {
+     "k": "legendaVBAdultoParedeLinearUltra"
+    }
+   ],
+   "code_keys": [
+    "tecnica",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}

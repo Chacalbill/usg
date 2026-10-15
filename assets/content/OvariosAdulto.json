@@ -1,0 +1,118 @@
+{
+ "target": "OvariosAdulto",
+ "tabs": [
+  {
+   "page": "OvariosAdultoMenstrual",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Ovarios\\OvariosAdultoMenstrual.xaml",
+   "title_key": "tabelas",
+   "blocks": [
+    {
+     "k": "refTabelaOvariosAdultoMenstrual"
+    },
+    {
+     "k": "medidas"
+    },
+    {
+     "k": "tabelaOvariosAdultoMenstrualL1C1"
+    },
+    {
+     "k": "tabelaOvariosAdultoMenstrualL1C2"
+    },
+    {
+     "k": "tabelaOvariosAdultoMenstrualL1C3"
+    },
+    {
+     "k": "tabelaOvariosAdultoMenstrualL2C1"
+    },
+    {
+     "k": "tabelaOvariosAdultoMenstrualL2C2"
+    },
+    {
+     "k": "tabelaOvariosAdultoMenstrualL2C3"
+    },
+    {
+     "k": "tabelaOvariosAdultoMenstrualL3C1"
+    },
+    {
+     "k": "tabelaOvariosAdultoMenstrualL3C2"
+    },
+    {
+     "k": "tabelaOvariosAdultoMenstrualL3C3"
+    },
+    {
+     "k": "tabelaOvariosAdultoMenstrualL4C1"
+    },
+    {
+     "k": "tabelaOvariosAdultoMenstrualL4C2"
+    },
+    {
+     "k": "tabelaOvariosAdultoMenstrualL4C3"
+    },
+    {
+     "k": "astTabelaOvariosAdultoMenstrual"
+    }
+   ],
+   "code_keys": [
+    "tabelas",
+    "voltar"
+   ],
+   "tables": [
+    {
+     "prefix": "tabelaOvariosAdultoMenstrual",
+     "rows": [
+      [
+       "tabelaOvariosAdultoMenstrualL1C1",
+       "tabelaOvariosAdultoMenstrualL1C2",
+       "tabelaOvariosAdultoMenstrualL1C3"
+      ],
+      [
+       "tabelaOvariosAdultoMenstrualL2C1",
+       "tabelaOvariosAdultoMenstrualL2C2",
+       "tabelaOvariosAdultoMenstrualL2C3"
+      ],
+      [
+       "tabelaOvariosAdultoMenstrualL3C1",
+       "tabelaOvariosAdultoMenstrualL3C2",
+       "tabelaOvariosAdultoMenstrualL3C3"
+      ],
+      [
+       "tabelaOvariosAdultoMenstrualL4C1",
+       "tabelaOvariosAdultoMenstrualL4C2",
+       "tabelaOvariosAdultoMenstrualL4C3"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "page": "OvariosAdultoExame",
+   "xaml": "Paginas\\Medidas\\TratoGenital\\Feminino\\Ovarios\\OvariosAdultoExame.xaml",
+   "title_key": "exame",
+   "blocks": [
+    {
+     "k": "preparo"
+    },
+    {
+     "k": "preparoOvariosAdulto"
+    },
+    {
+     "k": "posicionamento"
+    },
+    {
+     "k": "posicionamentoOvariosAdulto"
+    },
+    {
+     "k": "tecnica"
+    },
+    {
+     "k": "tecnicaOvariosAdulto"
+    }
+   ],
+   "code_keys": [
+    "exame",
+    "voltar"
+   ],
+   "tables": []
+  }
+ ]
+}
